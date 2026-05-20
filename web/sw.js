@@ -1,7 +1,7 @@
 // Service worker — cache-first for app shell + Bible data.
 // Bump CACHE_VERSION when shipping updates; old caches will be cleaned.
 
-const CACHE_VERSION = "hope-v32";
+const CACHE_VERSION = "hope-v33";
 // Note: cache size now ~17MB (KJV + BSB + WEB + ASV all bundled)
 const APP_SHELL = [
   "./",
@@ -10,6 +10,8 @@ const APP_SHELL = [
   "app.js",
   "manifest.json",
   "icons/icon.svg",
+  "icons/icon-192.png",
+  "icons/icon-512.png",
   "data/kjv.json",
   "data/bsb.json",
   "data/topics.json",
