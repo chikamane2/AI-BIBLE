@@ -1335,6 +1335,18 @@ async function boot() {
   show("daily");
   loadExtraTranslations(data); // WEB + ASV stream in without blocking startup
 
+  // Re-render date-sensitive sections when the user returns to the app
+  // (e.g. opened yesterday, reopened today — daily verse and streak should refresh).
+  function refreshIfNewDay() {
+    updateStreak();
+    renderVod(data);
+    if (document.getElementById("me")?.classList.contains("active")) renderMeHub(data);
+  }
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) refreshIfNewDay();
+  });
+  window.addEventListener("focus", refreshIfNewDay);
+
   // Bible browser handlers
   document.getElementById("back-to-chapters").addEventListener("click", () => {
     if (bibleState.book) renderBibleChapters(bibleState.book, data);
