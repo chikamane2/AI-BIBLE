@@ -1,0 +1,20 @@
+{
+  "name": "ai-bible",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "Hope Finder — Bible study + evangelism tool. Local KJV + BSB, NKJV via API.Bible.",
+  "bin": {
+    "bible": "bin/bible.mjs"
+  },
+  "scripts": {
+    "build": "node scripts/build_text_and_json.mjs",
+    "build:web": "node scripts/build_web.mjs",
+    "serve:web": "npx serve web",
+    "bible": "node bin/bible.mjs",
+    "topics": "node bin/bible.mjs topics"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Hope — Bible Study & Encouragement",
+  "short_name": "Hope",
+  "description": "Bible verses for hope, healing, and encouragement. KJV and BSB side by side.",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1822",
+  "theme_color": "#1e3a5f",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "categories": ["books", "education", "lifestyle"]
+}

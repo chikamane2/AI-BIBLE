@@ -1,0 +1,15 @@
+# Netlify configuration — tells Netlify how to build and publish on each push.
+#
+# Workflow:
+#   1. You commit and push to GitHub from VS Code.
+#   2. Netlify clones the repo.
+#   3. Netlify runs `node scripts/build_web.mjs` — copies lib/*.json and
+#      data/{kjv,bsb,web,asv}/*.json into web/data/.
+#   4. Netlify publishes the `web/` directory at devinehope.netlify.app.
+
+[build]
+  command = "node scripts/build_web.mjs"
+  publish = "web"
+
+[build.environment]
+  NODE_VERSION = "20"

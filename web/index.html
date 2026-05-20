@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#1e3a5f" />
+  <title>Hope — Bible Study & Encouragement</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    // Apply saved theme before paint to avoid a flash
+    try {
+      if (localStorage.getItem("hope.theme") === "light") {
+        document.documentElement.classList.add("light");
+      }
+    } catch (e) { /* ignore */ }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span class="logo">✦</span>
+      <h1>Hope</h1>
+    </div>
+    <nav>
+      <button data-tab="daily" class="active">Daily</button>
+      <button data-tab="bible-books">Bible</button>
+      <button data-tab="speak">Speak</button>
+      <button data-tab="lookup">Search</button>
+      <button data-tab="quiz">Quiz</button>
+      <button data-tab="topics">Topics</button>
+      <button data-tab="me">Me</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="loading" class="active">
+      <p class="muted">Loading Scripture...</p>
+    </section>
+
+    <section id="daily">
+      <div class="section-head">
+        <h2 id="daily-date"></h2>
+        <button class="listen-btn" id="daily-listen">▶ Listen</button>
+      </div>
+      <div class="vod-card" id="vod-card"></div>
+      <div class="devotional" id="devotional"></div>
+      <p class="muted center small">A new sermon, prayer, and declaration each day.</p>
+    </section>
+
+    <section id="speak">
+      <p class="muted center">Pause for a moment. Let God's own words meet you where you are.</p>
+      <div id="speak-body"></div>
+      <p class="muted small center speak-note">Every word here is drawn directly from God's promises in Scripture.</p>
+    </section>
+
+    <section id="topics">
+      <p class="muted">Pick a situation. Find verses that meet you there.</p>
+      <div class="topic-grid" id="topic-grid"></div>
+    </section>
+
+    <section id="topic-view">
+      <button class="back" data-back="topics">← Back to topics</button>
+      <div class="section-head">
+        <h2 id="topic-title"></h2>
+        <button class="listen-btn" id="topic-listen">▶ Listen</button>
+      </div>
+      <p class="tagline" id="topic-intro"></p>
+      <div class="message" id="topic-message"></div>
+      <div class="word-divider"><span>What God says</span></div>
+      <div id="topic-refs"></div>
+      <div class="devotional" id="topic-devotional"></div>
+    </section>
+
+    <section id="quiz">
+      <div id="quiz-body"></div>
+    </section>
+
+    <section id="bible-books">
+      <p class="muted">All 66 books — KJV and BSB.</p>
+      <div class="bible-section-label">Old Testament</div>
+      <div class="book-grid" id="ot-books"></div>
+      <div class="bible-section-label">New Testament</div>
+      <div class="book-grid" id="nt-books"></div>
+    </section>
+
+    <section id="bible-chapters">
+      <button class="back" data-back="bible-books">← Back to books</button>
+      <h2 id="chapters-book-name"></h2>
+      <p class="muted small" id="chapters-count"></p>
+      <div class="chapter-grid" id="chapter-grid"></div>
+    </section>
+
+    <section id="bible-read">
+      <button class="back" id="back-to-chapters">← Back to chapters</button>
+      <div class="reader-header">
+        <h2 id="reader-ref"></h2>
+        <div class="translation-toggle" id="tx-toggle">
+          <!-- buttons rendered dynamically based on available translations -->
+        </div>
+      </div>
+      <button class="listen-btn wide" id="reader-listen">▶ Listen to this chapter</button>
+      <div class="reader-content" id="reader-content"></div>
+      <div class="reader-nav">
+        <button id="reader-prev">← Previous</button>
+        <button id="reader-next">Next →</button>
+      </div>
+    </section>
+
+    <section id="lookup">
+      <p class="muted">Search a <strong>word</strong> to find every verse it appears in — or type a <strong>reference</strong> (like "John 3:16" or "Matthew 16 5") to compare translations.</p>
+      <form id="lookup-form">
+        <input type="text" id="lookup-input" placeholder='"mercy", "fear not", "John 3:16" or "Matthew 16 5"' autocomplete="off" />
+        <button type="submit">Search</button>
+      </form>
+      <div class="book-suggestions" id="lookup-suggestions"></div>
+      <p class="muted small" id="lookup-stats"></p>
+      <div id="lookup-results"></div>
+    </section>
+    <section id="me">
+      <div id="me-body"></div>
+    </section>
+
+    <section id="me-sub">
+      <button class="back" id="me-sub-back">← Back</button>
+      <div id="me-sub-body"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="muted small">
+      KJV · BSB · WEB · ASV — all public domain
+    </p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+    }
+  </script>
+</body>
+</html>

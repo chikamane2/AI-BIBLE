@@ -1,0 +1,96 @@
+[
+  {
+    "id": "new-to-faith",
+    "title": "New to Faith",
+    "desc": "Seven days through the heart of the gospel — for anyone beginning with Jesus.",
+    "days": [
+      { "label": "You must be born again", "ref": "John 3" },
+      { "label": "The Father's heart", "ref": "Luke 15" },
+      { "label": "All have sinned", "ref": "Romans 3" },
+      { "label": "Justified by faith", "ref": "Romans 5" },
+      { "label": "Saved by grace", "ref": "Ephesians 2" },
+      { "label": "The Good Shepherd", "ref": "John 10" },
+      { "label": "Life in the Spirit", "ref": "Romans 8" }
+    ]
+  },
+  {
+    "id": "gospel-of-john",
+    "title": "The Gospel of John",
+    "desc": "Read the whole Gospel of John — one chapter a day for three weeks.",
+    "days": [
+      { "label": "The Word became flesh", "ref": "John 1" },
+      { "label": "Water into wine", "ref": "John 2" },
+      { "label": "Born again", "ref": "John 3" },
+      { "label": "The woman at the well", "ref": "John 4" },
+      { "label": "Healing at the pool", "ref": "John 5" },
+      { "label": "The bread of life", "ref": "John 6" },
+      { "label": "Rivers of living water", "ref": "John 7" },
+      { "label": "The light of the world", "ref": "John 8" },
+      { "label": "The man born blind", "ref": "John 9" },
+      { "label": "The Good Shepherd", "ref": "John 10" },
+      { "label": "The raising of Lazarus", "ref": "John 11" },
+      { "label": "The hour has come", "ref": "John 12" },
+      { "label": "Washing the disciples' feet", "ref": "John 13" },
+      { "label": "The way, the truth, the life", "ref": "John 14" },
+      { "label": "The true vine", "ref": "John 15" },
+      { "label": "The promised Helper", "ref": "John 16" },
+      { "label": "Jesus prays for us", "ref": "John 17" },
+      { "label": "Betrayed and arrested", "ref": "John 18" },
+      { "label": "The crucifixion", "ref": "John 19" },
+      { "label": "The empty tomb", "ref": "John 20" },
+      { "label": "Breakfast by the sea", "ref": "John 21" }
+    ]
+  },
+  {
+    "id": "psalms-of-comfort",
+    "title": "Psalms of Comfort",
+    "desc": "Ten days in the Psalms that have steadied God's people for thousands of years.",
+    "days": [
+      { "label": "The Lord is my shepherd", "ref": "Psalms 23" },
+      { "label": "The Lord is my light", "ref": "Psalms 27" },
+      { "label": "Taste and see", "ref": "Psalms 34" },
+      { "label": "Why are you downcast?", "ref": "Psalms 42" },
+      { "label": "God is our refuge", "ref": "Psalms 46" },
+      { "label": "He who dwells in the shelter", "ref": "Psalms 91" },
+      { "label": "Bless the Lord, O my soul", "ref": "Psalms 103" },
+      { "label": "I lift my eyes to the hills", "ref": "Psalms 121" },
+      { "label": "You have searched me", "ref": "Psalms 139" },
+      { "label": "I will extol You, my God", "ref": "Psalms 145" }
+    ]
+  },
+  {
+    "id": "hope-in-hard-times",
+    "title": "Hope in Hard Times",
+    "desc": "Seven days for the seasons that test the soul — Scripture that holds when life is heavy.",
+    "days": [
+      { "label": "More than conquerors", "ref": "Romans 8" },
+      { "label": "Treasure in jars of clay", "ref": "2 Corinthians 4" },
+      { "label": "His mercies are new", "ref": "Lamentations 3" },
+      { "label": "They shall renew their strength", "ref": "Isaiah 40" },
+      { "label": "Hope in God", "ref": "Psalms 42" },
+      { "label": "Come to Me, all who are weary", "ref": "Matthew 11" },
+      { "label": "He will wipe every tear", "ref": "Revelation 21" }
+    ]
+  },
+  {
+    "id": "life-of-jesus",
+    "title": "The Life of Jesus",
+    "desc": "Fourteen days walking through the life of Christ — His birth, ministry, cross, and resurrection.",
+    "days": [
+      { "label": "The announcement", "ref": "Luke 1" },
+      { "label": "The birth of Jesus", "ref": "Luke 2" },
+      { "label": "Tested in the wilderness", "ref": "Luke 4" },
+      { "label": "The first disciples", "ref": "Luke 5" },
+      { "label": "Blessings and woes", "ref": "Luke 6" },
+      { "label": "Parables and power", "ref": "Luke 8" },
+      { "label": "The Good Samaritan", "ref": "Luke 10" },
+      { "label": "Lost and found", "ref": "Luke 15" },
+      { "label": "Prayer and humility", "ref": "Luke 18" },
+      { "label": "Zacchaeus", "ref": "Luke 19" },
+      { "label": "The Last Supper", "ref": "Luke 22" },
+      { "label": "The crucifixion", "ref": "Luke 23" },
+      { "label": "The resurrection", "ref": "Luke 24" },
+      { "label": "The promise and the ascension", "ref": "Acts 1" }
+    ]
+  }
+]
