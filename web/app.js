@@ -269,9 +269,12 @@ function show(id) {
 }
 
 // ---------- VOD ----------
+// Day-of-year in UTC, so the daily verse flips at 00:00 UTC for every user
+// worldwide on the same moment — not at each user's local midnight.
 function dayOfYear(d = new Date()) {
-  const start = new Date(d.getFullYear(), 0, 0);
-  return Math.floor((d - start) / 86400000);
+  const today = Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate());
+  const yearStart = Date.UTC(d.getUTCFullYear(), 0, 0);
+  return Math.floor((today - yearStart) / 86400000);
 }
 function renderVod(data) {
   const entry = data.daily[dayOfYear() % data.daily.length];
@@ -279,8 +282,9 @@ function renderVod(data) {
   const ref = parseRef(refStr);
   const kjv = getRange("kjv", ref, data);
   const bsb = getRange("bsb", ref, data);
+  // Date shown in UTC so the heading matches the (UTC-scheduled) verse.
   document.getElementById("daily-date").textContent = new Date().toLocaleDateString(undefined, {
-    weekday: "long", month: "long", day: "numeric",
+    weekday: "long", month: "long", day: "numeric", timeZone: "UTC",
   });
   const card = document.getElementById("vod-card");
   card.innerHTML = `
