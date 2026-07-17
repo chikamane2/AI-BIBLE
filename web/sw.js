@@ -1,7 +1,7 @@
 // Service worker — cache-first for app shell + Bible data.
 // Bump CACHE_VERSION when shipping updates; old caches will be cleaned.
 
-const CACHE_VERSION = "hope-v34"; // v34: 20 quiz levels, 211 voice messages, streak hype
+const CACHE_VERSION = "hope-v35"; // v35: quiz level chips wrap onto multiple rows
 // Note: cache size now ~17MB (KJV + BSB + WEB + ASV all bundled)
 const APP_SHELL = [
   "./",
