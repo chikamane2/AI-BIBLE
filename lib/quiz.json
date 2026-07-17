@@ -1,66 +1,2882 @@
 [
-  { "level": 1, "q": "Who built the ark?", "options": ["Noah", "Moses", "Abraham", "David"], "answer": 0, "ref": "Genesis 6:14" },
-  { "level": 1, "q": "In how many days did God create the world?", "options": ["Five", "Six", "Seven", "Forty"], "answer": 1, "ref": "Genesis 1:31" },
-  { "level": 1, "q": "Who led the Israelites out of Egypt?", "options": ["Joshua", "Aaron", "Moses", "Joseph"], "answer": 2, "ref": "Exodus 3:10" },
-  { "level": 1, "q": "In which town was Jesus born?", "options": ["Nazareth", "Jerusalem", "Bethlehem", "Capernaum"], "answer": 2, "ref": "Luke 2:4" },
-  { "level": 1, "q": "What is the first book of the Bible?", "options": ["Exodus", "Psalms", "Genesis", "Matthew"], "answer": 2, "ref": "Genesis 1:1" },
-  { "level": 1, "q": "Who betrayed Jesus for thirty pieces of silver?", "options": ["Peter", "Judas Iscariot", "Pilate", "Caiaphas"], "answer": 1, "ref": "Matthew 26:15" },
-  { "level": 1, "q": "Who was swallowed by a great fish?", "options": ["Jonah", "Job", "Noah", "Elijah"], "answer": 0, "ref": "Jonah 1:17" },
-  { "level": 1, "q": "Who killed the giant Goliath?", "options": ["Saul", "David", "Samson", "Jonathan"], "answer": 1, "ref": "1 Samuel 17:50" },
-  { "level": 1, "q": "Who was the first man God created?", "options": ["Abraham", "Adam", "Cain", "Enoch"], "answer": 1, "ref": "Genesis 2:7" },
-  { "level": 1, "q": "Who was the first woman?", "options": ["Sarah", "Eve", "Mary", "Ruth"], "answer": 1, "ref": "Genesis 3:20" },
-  { "level": 1, "q": "What sign did God give Noah after the flood?", "options": ["A bright star", "A rainbow", "A white dove", "A pillar of fire"], "answer": 1, "ref": "Genesis 9:13" },
-  { "level": 1, "q": "Who was the mother of Jesus?", "options": ["Martha", "Mary", "Elizabeth", "Anna"], "answer": 1, "ref": "Luke 1:31" },
-
-  { "level": 2, "q": "Who baptized Jesus?", "options": ["Peter", "John the Baptist", "Paul", "Andrew"], "answer": 1, "ref": "Matthew 3:13" },
-  { "level": 2, "q": "How many disciples did Jesus choose?", "options": ["Ten", "Twelve", "Seven", "Seventy"], "answer": 1, "ref": "Matthew 10:1" },
-  { "level": 2, "q": "Who denied Jesus three times?", "options": ["Judas", "Peter", "Thomas", "John"], "answer": 1, "ref": "Luke 22:61" },
-  { "level": 2, "q": "What is the last book of the Bible?", "options": ["Malachi", "Acts", "Jude", "Revelation"], "answer": 3, "ref": "Revelation 1:1" },
-  { "level": 2, "q": "Who was thrown into the lions' den?", "options": ["Daniel", "David", "Jonah", "Joseph"], "answer": 0, "ref": "Daniel 6:16" },
-  { "level": 2, "q": "What did Jesus turn water into at the wedding in Cana?", "options": ["Bread", "Wine", "Oil", "Honey"], "answer": 1, "ref": "John 2:9" },
-  { "level": 2, "q": "Which disciple briefly walked on water toward Jesus?", "options": ["John", "Peter", "James", "Andrew"], "answer": 1, "ref": "Matthew 14:29" },
-  { "level": 2, "q": "What did Jesus use to feed the five thousand?", "options": ["Five loaves and two fish", "Manna from heaven", "Bread and wine", "Baskets of figs"], "answer": 0, "ref": "Matthew 14:17" },
-  { "level": 2, "q": "Who was known as the strongest man in the Bible?", "options": ["David", "Samson", "Goliath", "Saul"], "answer": 1, "ref": "Judges 16:17" },
-  { "level": 2, "q": "How many commandments did God give Moses on the mountain?", "options": ["Seven", "Ten", "Twelve", "Five"], "answer": 1, "ref": "Exodus 20:1" },
-  { "level": 2, "q": "What did God create on the first day?", "options": ["Animals", "Light", "Mankind", "The seas"], "answer": 1, "ref": "Genesis 1:3" },
-  { "level": 2, "q": "Who was the wisest king of Israel?", "options": ["David", "Saul", "Solomon", "Hezekiah"], "answer": 2, "ref": "1 Kings 3:12" },
-
-  { "level": 3, "q": "How many books are in the Bible?", "options": ["Twenty-seven", "Thirty-nine", "Sixty-six", "Seventy-three"], "answer": 2, "ref": "Genesis 1:1" },
-  { "level": 3, "q": "What did God use to part the Red Sea?", "options": ["An angel", "A strong east wind", "Fire from heaven", "An earthquake"], "answer": 1, "ref": "Exodus 14:21" },
-  { "level": 3, "q": "How many days was Jesus in the tomb before He rose?", "options": ["One", "Two", "Three", "Seven"], "answer": 2, "ref": "1 Corinthians 15:4" },
-  { "level": 3, "q": "What is the shortest verse in the Bible?", "options": ["\"God is love\"", "\"Jesus wept\"", "\"Pray always\"", "\"Rejoice evermore\""], "answer": 1, "ref": "John 11:35" },
-  { "level": 3, "q": "Who wrote the majority of the Psalms?", "options": ["Solomon", "Moses", "David", "Asaph"], "answer": 2, "ref": "Psalms 23:1" },
-  { "level": 3, "q": "Which apostle once persecuted Christians before his conversion?", "options": ["Peter", "Paul", "John", "Barnabas"], "answer": 1, "ref": "Acts 9:1" },
-  { "level": 3, "q": "What did Jesus call the greatest commandment?", "options": ["Love God and love your neighbor", "Keep the Sabbath holy", "Give to the poor", "Pray without ceasing"], "answer": 0, "ref": "Matthew 22:37" },
-  { "level": 3, "q": "Which book comes immediately after the four Gospels?", "options": ["Romans", "Acts", "Revelation", "Hebrews"], "answer": 1, "ref": "Acts 1:1" },
-  { "level": 3, "q": "What did the dove bring back to Noah?", "options": ["A small fish", "An olive leaf", "A smooth stone", "A green branch"], "answer": 1, "ref": "Genesis 8:11" },
-  { "level": 3, "q": "Who interpreted Pharaoh's dreams in Egypt?", "options": ["Daniel", "Joseph", "Moses", "Aaron"], "answer": 1, "ref": "Genesis 41:25" },
-  { "level": 3, "q": "What is the first quality listed as the fruit of the Spirit?", "options": ["Joy", "Peace", "Love", "Patience"], "answer": 2, "ref": "Galatians 5:22" },
-  { "level": 3, "q": "Who did God promise would be the father of many nations?", "options": ["Isaac", "Jacob", "Abraham", "Noah"], "answer": 2, "ref": "Genesis 17:5" },
-
-  { "level": 4, "q": "What happened to Jesus forty days after His resurrection?", "options": ["He was crucified again", "He ascended to heaven", "He returned to Egypt", "He was baptized"], "answer": 1, "ref": "Acts 1:9" },
-  { "level": 4, "q": "Who was the first martyr of the early church?", "options": ["Paul", "Stephen", "Peter", "James"], "answer": 1, "ref": "Acts 7:59" },
-  { "level": 4, "q": "Which body of water did Jesus calm during a storm?", "options": ["The Red Sea", "The Sea of Galilee", "The Dead Sea", "The Jordan River"], "answer": 1, "ref": "Mark 4:39" },
-  { "level": 4, "q": "How many people were saved on Noah's ark?", "options": ["Two", "Four", "Eight", "Twelve"], "answer": 2, "ref": "1 Peter 3:20" },
-  { "level": 4, "q": "Jesus said, \"I am the way, the truth, and the...\" what?", "options": ["Life", "Light", "Word", "Love"], "answer": 0, "ref": "John 14:6" },
-  { "level": 4, "q": "Who climbed a tree to get a better look at Jesus?", "options": ["Zacchaeus", "Bartimaeus", "Nicodemus", "Lazarus"], "answer": 0, "ref": "Luke 19:4" },
-  { "level": 4, "q": "Whom did God ask Abraham to offer as a sacrifice?", "options": ["Ishmael", "Isaac", "Jacob", "Lot"], "answer": 1, "ref": "Genesis 22:2" },
-  { "level": 4, "q": "On the road to which city was Saul converted?", "options": ["Jerusalem", "Damascus", "Antioch", "Rome"], "answer": 1, "ref": "Acts 9:3" },
-  { "level": 4, "q": "Who raised Lazarus from the dead?", "options": ["Peter", "Elijah", "Jesus", "Paul"], "answer": 2, "ref": "John 11:43" },
-  { "level": 4, "q": "Who said, \"Here am I; send me\"?", "options": ["Moses", "Isaiah", "Jeremiah", "Samuel"], "answer": 1, "ref": "Isaiah 6:8" },
-  { "level": 4, "q": "Which disciple doubted Jesus' resurrection until he saw Him?", "options": ["Thomas", "Philip", "Andrew", "Bartholomew"], "answer": 0, "ref": "John 20:25" },
-  { "level": 4, "q": "Which prophet was fed by ravens during a drought?", "options": ["Elisha", "Elijah", "Jeremiah", "Amos"], "answer": 1, "ref": "1 Kings 17:6" },
-
-  { "level": 5, "q": "Who was the oldest man recorded in the Bible?", "options": ["Adam", "Noah", "Methuselah", "Enoch"], "answer": 2, "ref": "Genesis 5:27" },
-  { "level": 5, "q": "What was the Apostle Paul's trade?", "options": ["Fisherman", "Carpenter", "Tentmaker", "Shepherd"], "answer": 2, "ref": "Acts 18:3" },
-  { "level": 5, "q": "Which prophet was taken up to heaven in a whirlwind?", "options": ["Elisha", "Elijah", "Enoch", "Moses"], "answer": 1, "ref": "2 Kings 2:11" },
-  { "level": 5, "q": "How many years did the Israelites wander in the wilderness?", "options": ["Twenty", "Thirty", "Forty", "Fifty"], "answer": 2, "ref": "Numbers 14:33" },
-  { "level": 5, "q": "Who succeeded Moses as the leader of Israel?", "options": ["Aaron", "Caleb", "Joshua", "Samuel"], "answer": 2, "ref": "Joshua 1:2" },
-  { "level": 5, "q": "What is the longest chapter in the Bible?", "options": ["Psalm 23", "Psalm 119", "Genesis 1", "Isaiah 53"], "answer": 1, "ref": "Psalms 119:1" },
-  { "level": 5, "q": "Which disciple had been a tax collector before following Jesus?", "options": ["Matthew", "Mark", "Luke", "Thomas"], "answer": 0, "ref": "Matthew 9:9" },
-  { "level": 5, "q": "What did Esau sell to Jacob for a bowl of stew?", "options": ["His sword", "His birthright", "His coat", "His land"], "answer": 1, "ref": "Genesis 25:33" },
-  { "level": 5, "q": "Which king saw a hand writing on the wall?", "options": ["Nebuchadnezzar", "Belshazzar", "Darius", "Cyrus"], "answer": 1, "ref": "Daniel 5:5" },
-  { "level": 5, "q": "Paul wrote a short letter about a runaway slave. What was the slave's name?", "options": ["Onesimus", "Titus", "Timothy", "Silas"], "answer": 0, "ref": "Philemon 1:10" },
-  { "level": 5, "q": "Who was the first king of Israel?", "options": ["David", "Saul", "Solomon", "Samuel"], "answer": 1, "ref": "1 Samuel 10:1" },
-  { "level": 5, "q": "On which mountain did Moses receive the Ten Commandments?", "options": ["Mount Carmel", "Mount Sinai", "Mount Nebo", "Mount Zion"], "answer": 1, "ref": "Exodus 19:20" }
+ {
+  "level": 1,
+  "q": "Who built the ark?",
+  "options": [
+   "Noah",
+   "Moses",
+   "Abraham",
+   "David"
+  ],
+  "answer": 0,
+  "ref": "Genesis 6:14"
+ },
+ {
+  "level": 1,
+  "q": "In how many days did God create the world?",
+  "options": [
+   "Five",
+   "Six",
+   "Seven",
+   "Forty"
+  ],
+  "answer": 1,
+  "ref": "Genesis 1:31"
+ },
+ {
+  "level": 1,
+  "q": "Who led the Israelites out of Egypt?",
+  "options": [
+   "Joshua",
+   "Aaron",
+   "Moses",
+   "Joseph"
+  ],
+  "answer": 2,
+  "ref": "Exodus 3:10"
+ },
+ {
+  "level": 1,
+  "q": "In which town was Jesus born?",
+  "options": [
+   "Nazareth",
+   "Jerusalem",
+   "Bethlehem",
+   "Capernaum"
+  ],
+  "answer": 2,
+  "ref": "Luke 2:4"
+ },
+ {
+  "level": 1,
+  "q": "What is the first book of the Bible?",
+  "options": [
+   "Exodus",
+   "Psalms",
+   "Genesis",
+   "Matthew"
+  ],
+  "answer": 2,
+  "ref": "Genesis 1:1"
+ },
+ {
+  "level": 1,
+  "q": "Who betrayed Jesus for thirty pieces of silver?",
+  "options": [
+   "Peter",
+   "Judas Iscariot",
+   "Pilate",
+   "Caiaphas"
+  ],
+  "answer": 1,
+  "ref": "Matthew 26:15"
+ },
+ {
+  "level": 1,
+  "q": "Who was swallowed by a great fish?",
+  "options": [
+   "Jonah",
+   "Job",
+   "Noah",
+   "Elijah"
+  ],
+  "answer": 0,
+  "ref": "Jonah 1:17"
+ },
+ {
+  "level": 1,
+  "q": "Who killed the giant Goliath?",
+  "options": [
+   "Saul",
+   "David",
+   "Samson",
+   "Jonathan"
+  ],
+  "answer": 1,
+  "ref": "1 Samuel 17:50"
+ },
+ {
+  "level": 1,
+  "q": "Who was the first man God created?",
+  "options": [
+   "Abraham",
+   "Adam",
+   "Cain",
+   "Enoch"
+  ],
+  "answer": 1,
+  "ref": "Genesis 2:7"
+ },
+ {
+  "level": 1,
+  "q": "Who was the first woman?",
+  "options": [
+   "Sarah",
+   "Eve",
+   "Mary",
+   "Ruth"
+  ],
+  "answer": 1,
+  "ref": "Genesis 3:20"
+ },
+ {
+  "level": 1,
+  "q": "What sign did God give Noah after the flood?",
+  "options": [
+   "A bright star",
+   "A rainbow",
+   "A white dove",
+   "A pillar of fire"
+  ],
+  "answer": 1,
+  "ref": "Genesis 9:13"
+ },
+ {
+  "level": 1,
+  "q": "Who was the mother of Jesus?",
+  "options": [
+   "Martha",
+   "Mary",
+   "Elizabeth",
+   "Anna"
+  ],
+  "answer": 1,
+  "ref": "Luke 1:31"
+ },
+ {
+  "level": 2,
+  "q": "Who baptized Jesus?",
+  "options": [
+   "Peter",
+   "John the Baptist",
+   "Paul",
+   "Andrew"
+  ],
+  "answer": 1,
+  "ref": "Matthew 3:13"
+ },
+ {
+  "level": 2,
+  "q": "How many disciples did Jesus choose?",
+  "options": [
+   "Ten",
+   "Twelve",
+   "Seven",
+   "Seventy"
+  ],
+  "answer": 1,
+  "ref": "Matthew 10:1"
+ },
+ {
+  "level": 2,
+  "q": "Who denied Jesus three times?",
+  "options": [
+   "Judas",
+   "Peter",
+   "Thomas",
+   "John"
+  ],
+  "answer": 1,
+  "ref": "Luke 22:61"
+ },
+ {
+  "level": 2,
+  "q": "What is the last book of the Bible?",
+  "options": [
+   "Malachi",
+   "Acts",
+   "Jude",
+   "Revelation"
+  ],
+  "answer": 3,
+  "ref": "Revelation 1:1"
+ },
+ {
+  "level": 2,
+  "q": "Who was thrown into the lions' den?",
+  "options": [
+   "Daniel",
+   "David",
+   "Jonah",
+   "Joseph"
+  ],
+  "answer": 0,
+  "ref": "Daniel 6:16"
+ },
+ {
+  "level": 2,
+  "q": "What did Jesus turn water into at the wedding in Cana?",
+  "options": [
+   "Bread",
+   "Wine",
+   "Oil",
+   "Honey"
+  ],
+  "answer": 1,
+  "ref": "John 2:9"
+ },
+ {
+  "level": 2,
+  "q": "Which disciple briefly walked on water toward Jesus?",
+  "options": [
+   "John",
+   "Peter",
+   "James",
+   "Andrew"
+  ],
+  "answer": 1,
+  "ref": "Matthew 14:29"
+ },
+ {
+  "level": 2,
+  "q": "What did Jesus use to feed the five thousand?",
+  "options": [
+   "Five loaves and two fish",
+   "Manna from heaven",
+   "Bread and wine",
+   "Baskets of figs"
+  ],
+  "answer": 0,
+  "ref": "Matthew 14:17"
+ },
+ {
+  "level": 2,
+  "q": "Who was known as the strongest man in the Bible?",
+  "options": [
+   "David",
+   "Samson",
+   "Goliath",
+   "Saul"
+  ],
+  "answer": 1,
+  "ref": "Judges 16:17"
+ },
+ {
+  "level": 2,
+  "q": "How many commandments did God give Moses on the mountain?",
+  "options": [
+   "Seven",
+   "Ten",
+   "Twelve",
+   "Five"
+  ],
+  "answer": 1,
+  "ref": "Exodus 20:1"
+ },
+ {
+  "level": 2,
+  "q": "What did God create on the first day?",
+  "options": [
+   "Animals",
+   "Light",
+   "Mankind",
+   "The seas"
+  ],
+  "answer": 1,
+  "ref": "Genesis 1:3"
+ },
+ {
+  "level": 2,
+  "q": "Who was the wisest king of Israel?",
+  "options": [
+   "David",
+   "Saul",
+   "Solomon",
+   "Hezekiah"
+  ],
+  "answer": 2,
+  "ref": "1 Kings 3:12"
+ },
+ {
+  "level": 3,
+  "q": "How many books are in the Bible?",
+  "options": [
+   "Twenty-seven",
+   "Thirty-nine",
+   "Sixty-six",
+   "Seventy-three"
+  ],
+  "answer": 2,
+  "ref": "Genesis 1:1"
+ },
+ {
+  "level": 3,
+  "q": "What did God use to part the Red Sea?",
+  "options": [
+   "An angel",
+   "A strong east wind",
+   "Fire from heaven",
+   "An earthquake"
+  ],
+  "answer": 1,
+  "ref": "Exodus 14:21"
+ },
+ {
+  "level": 3,
+  "q": "How many days was Jesus in the tomb before He rose?",
+  "options": [
+   "One",
+   "Two",
+   "Three",
+   "Seven"
+  ],
+  "answer": 2,
+  "ref": "1 Corinthians 15:4"
+ },
+ {
+  "level": 3,
+  "q": "What is the shortest verse in the Bible?",
+  "options": [
+   "\"God is love\"",
+   "\"Jesus wept\"",
+   "\"Pray always\"",
+   "\"Rejoice evermore\""
+  ],
+  "answer": 1,
+  "ref": "John 11:35"
+ },
+ {
+  "level": 3,
+  "q": "Who wrote the majority of the Psalms?",
+  "options": [
+   "Solomon",
+   "Moses",
+   "David",
+   "Asaph"
+  ],
+  "answer": 2,
+  "ref": "Psalms 23:1"
+ },
+ {
+  "level": 3,
+  "q": "Which apostle once persecuted Christians before his conversion?",
+  "options": [
+   "Peter",
+   "Paul",
+   "John",
+   "Barnabas"
+  ],
+  "answer": 1,
+  "ref": "Acts 9:1"
+ },
+ {
+  "level": 3,
+  "q": "What did Jesus call the greatest commandment?",
+  "options": [
+   "Love God and love your neighbor",
+   "Keep the Sabbath holy",
+   "Give to the poor",
+   "Pray without ceasing"
+  ],
+  "answer": 0,
+  "ref": "Matthew 22:37"
+ },
+ {
+  "level": 3,
+  "q": "Which book comes immediately after the four Gospels?",
+  "options": [
+   "Romans",
+   "Acts",
+   "Revelation",
+   "Hebrews"
+  ],
+  "answer": 1,
+  "ref": "Acts 1:1"
+ },
+ {
+  "level": 3,
+  "q": "What did the dove bring back to Noah?",
+  "options": [
+   "A small fish",
+   "An olive leaf",
+   "A smooth stone",
+   "A green branch"
+  ],
+  "answer": 1,
+  "ref": "Genesis 8:11"
+ },
+ {
+  "level": 3,
+  "q": "Who interpreted Pharaoh's dreams in Egypt?",
+  "options": [
+   "Daniel",
+   "Joseph",
+   "Moses",
+   "Aaron"
+  ],
+  "answer": 1,
+  "ref": "Genesis 41:25"
+ },
+ {
+  "level": 3,
+  "q": "What is the first quality listed as the fruit of the Spirit?",
+  "options": [
+   "Joy",
+   "Peace",
+   "Love",
+   "Patience"
+  ],
+  "answer": 2,
+  "ref": "Galatians 5:22"
+ },
+ {
+  "level": 3,
+  "q": "Who did God promise would be the father of many nations?",
+  "options": [
+   "Isaac",
+   "Jacob",
+   "Abraham",
+   "Noah"
+  ],
+  "answer": 2,
+  "ref": "Genesis 17:5"
+ },
+ {
+  "level": 4,
+  "q": "What happened to Jesus forty days after His resurrection?",
+  "options": [
+   "He was crucified again",
+   "He ascended to heaven",
+   "He returned to Egypt",
+   "He was baptized"
+  ],
+  "answer": 1,
+  "ref": "Acts 1:9"
+ },
+ {
+  "level": 4,
+  "q": "Who was the first martyr of the early church?",
+  "options": [
+   "Paul",
+   "Stephen",
+   "Peter",
+   "James"
+  ],
+  "answer": 1,
+  "ref": "Acts 7:59"
+ },
+ {
+  "level": 4,
+  "q": "Which body of water did Jesus calm during a storm?",
+  "options": [
+   "The Red Sea",
+   "The Sea of Galilee",
+   "The Dead Sea",
+   "The Jordan River"
+  ],
+  "answer": 1,
+  "ref": "Mark 4:39"
+ },
+ {
+  "level": 4,
+  "q": "How many people were saved on Noah's ark?",
+  "options": [
+   "Two",
+   "Four",
+   "Eight",
+   "Twelve"
+  ],
+  "answer": 2,
+  "ref": "1 Peter 3:20"
+ },
+ {
+  "level": 4,
+  "q": "Jesus said, \"I am the way, the truth, and the...\" what?",
+  "options": [
+   "Life",
+   "Light",
+   "Word",
+   "Love"
+  ],
+  "answer": 0,
+  "ref": "John 14:6"
+ },
+ {
+  "level": 4,
+  "q": "Who climbed a tree to get a better look at Jesus?",
+  "options": [
+   "Zacchaeus",
+   "Bartimaeus",
+   "Nicodemus",
+   "Lazarus"
+  ],
+  "answer": 0,
+  "ref": "Luke 19:4"
+ },
+ {
+  "level": 4,
+  "q": "Whom did God ask Abraham to offer as a sacrifice?",
+  "options": [
+   "Ishmael",
+   "Isaac",
+   "Jacob",
+   "Lot"
+  ],
+  "answer": 1,
+  "ref": "Genesis 22:2"
+ },
+ {
+  "level": 4,
+  "q": "On the road to which city was Saul converted?",
+  "options": [
+   "Jerusalem",
+   "Damascus",
+   "Antioch",
+   "Rome"
+  ],
+  "answer": 1,
+  "ref": "Acts 9:3"
+ },
+ {
+  "level": 4,
+  "q": "Who raised Lazarus from the dead?",
+  "options": [
+   "Peter",
+   "Elijah",
+   "Jesus",
+   "Paul"
+  ],
+  "answer": 2,
+  "ref": "John 11:43"
+ },
+ {
+  "level": 4,
+  "q": "Who said, \"Here am I; send me\"?",
+  "options": [
+   "Moses",
+   "Isaiah",
+   "Jeremiah",
+   "Samuel"
+  ],
+  "answer": 1,
+  "ref": "Isaiah 6:8"
+ },
+ {
+  "level": 4,
+  "q": "Which disciple doubted Jesus' resurrection until he saw Him?",
+  "options": [
+   "Thomas",
+   "Philip",
+   "Andrew",
+   "Bartholomew"
+  ],
+  "answer": 0,
+  "ref": "John 20:25"
+ },
+ {
+  "level": 4,
+  "q": "Which prophet was fed by ravens during a drought?",
+  "options": [
+   "Elisha",
+   "Elijah",
+   "Jeremiah",
+   "Amos"
+  ],
+  "answer": 1,
+  "ref": "1 Kings 17:6"
+ },
+ {
+  "level": 5,
+  "q": "Who was the oldest man recorded in the Bible?",
+  "options": [
+   "Adam",
+   "Noah",
+   "Methuselah",
+   "Enoch"
+  ],
+  "answer": 2,
+  "ref": "Genesis 5:27"
+ },
+ {
+  "level": 5,
+  "q": "What was the Apostle Paul's trade?",
+  "options": [
+   "Fisherman",
+   "Carpenter",
+   "Tentmaker",
+   "Shepherd"
+  ],
+  "answer": 2,
+  "ref": "Acts 18:3"
+ },
+ {
+  "level": 5,
+  "q": "Which prophet was taken up to heaven in a whirlwind?",
+  "options": [
+   "Elisha",
+   "Elijah",
+   "Enoch",
+   "Moses"
+  ],
+  "answer": 1,
+  "ref": "2 Kings 2:11"
+ },
+ {
+  "level": 5,
+  "q": "How many years did the Israelites wander in the wilderness?",
+  "options": [
+   "Twenty",
+   "Thirty",
+   "Forty",
+   "Fifty"
+  ],
+  "answer": 2,
+  "ref": "Numbers 14:33"
+ },
+ {
+  "level": 5,
+  "q": "Who succeeded Moses as the leader of Israel?",
+  "options": [
+   "Aaron",
+   "Caleb",
+   "Joshua",
+   "Samuel"
+  ],
+  "answer": 2,
+  "ref": "Joshua 1:2"
+ },
+ {
+  "level": 5,
+  "q": "What is the longest chapter in the Bible?",
+  "options": [
+   "Psalm 23",
+   "Psalm 119",
+   "Genesis 1",
+   "Isaiah 53"
+  ],
+  "answer": 1,
+  "ref": "Psalms 119:1"
+ },
+ {
+  "level": 5,
+  "q": "Which disciple had been a tax collector before following Jesus?",
+  "options": [
+   "Matthew",
+   "Mark",
+   "Luke",
+   "Thomas"
+  ],
+  "answer": 0,
+  "ref": "Matthew 9:9"
+ },
+ {
+  "level": 5,
+  "q": "What did Esau sell to Jacob for a bowl of stew?",
+  "options": [
+   "His sword",
+   "His birthright",
+   "His coat",
+   "His land"
+  ],
+  "answer": 1,
+  "ref": "Genesis 25:33"
+ },
+ {
+  "level": 5,
+  "q": "Which king saw a hand writing on the wall?",
+  "options": [
+   "Nebuchadnezzar",
+   "Belshazzar",
+   "Darius",
+   "Cyrus"
+  ],
+  "answer": 1,
+  "ref": "Daniel 5:5"
+ },
+ {
+  "level": 5,
+  "q": "Paul wrote a short letter about a runaway slave. What was the slave's name?",
+  "options": [
+   "Onesimus",
+   "Titus",
+   "Timothy",
+   "Silas"
+  ],
+  "answer": 0,
+  "ref": "Philemon 1:10"
+ },
+ {
+  "level": 5,
+  "q": "Who was the first king of Israel?",
+  "options": [
+   "David",
+   "Saul",
+   "Solomon",
+   "Samuel"
+  ],
+  "answer": 1,
+  "ref": "1 Samuel 10:1"
+ },
+ {
+  "level": 5,
+  "q": "On which mountain did Moses receive the Ten Commandments?",
+  "options": [
+   "Mount Carmel",
+   "Mount Sinai",
+   "Mount Nebo",
+   "Mount Zion"
+  ],
+  "answer": 1,
+  "ref": "Exodus 19:20"
+ },
+ {
+  "level": 6,
+  "q": "At what age did Jesus begin His public ministry?",
+  "options": [
+   "25",
+   "30",
+   "33",
+   "40"
+  ],
+  "answer": 1,
+  "ref": "Luke 3:23"
+ },
+ {
+  "level": 6,
+  "q": "Who baptized Jesus?",
+  "options": [
+   "Peter",
+   "John the Baptist",
+   "Andrew",
+   "Elijah"
+  ],
+  "answer": 1,
+  "ref": "Matthew 3:13"
+ },
+ {
+  "level": 6,
+  "q": "What was Jesus' first recorded miracle?",
+  "options": [
+   "Healing a leper",
+   "Walking on water",
+   "Turning water to wine",
+   "Feeding 5,000"
+  ],
+  "answer": 2,
+  "ref": "John 2:11"
+ },
+ {
+  "level": 6,
+  "q": "How many disciples did Jesus choose as apostles?",
+  "options": [
+   "7",
+   "10",
+   "12",
+   "70"
+  ],
+  "answer": 2,
+  "ref": "Luke 6:13"
+ },
+ {
+  "level": 6,
+  "q": "Which disciple walked on water toward Jesus?",
+  "options": [
+   "John",
+   "James",
+   "Peter",
+   "Thomas"
+  ],
+  "answer": 2,
+  "ref": "Matthew 14:29"
+ },
+ {
+  "level": 6,
+  "q": "Who betrayed Jesus for thirty pieces of silver?",
+  "options": [
+   "Peter",
+   "Judas Iscariot",
+   "Thomas",
+   "Barabbas"
+  ],
+  "answer": 1,
+  "ref": "Matthew 26:15"
+ },
+ {
+  "level": 6,
+  "q": "How many days was Lazarus in the tomb before Jesus raised him?",
+  "options": [
+   "One",
+   "Two",
+   "Three",
+   "Four"
+  ],
+  "answer": 3,
+  "ref": "John 11:39"
+ },
+ {
+  "level": 6,
+  "q": "What did Jesus feed the five thousand with?",
+  "options": [
+   "Manna from heaven",
+   "5 loaves and 2 fish",
+   "7 loaves and 3 fish",
+   "Bread and wine"
+  ],
+  "answer": 1,
+  "ref": "Matthew 14:17"
+ },
+ {
+  "level": 6,
+  "q": "Where was Jesus crucified?",
+  "options": [
+   "Gethsemane",
+   "Golgotha",
+   "Bethany",
+   "Mount Sinai"
+  ],
+  "answer": 1,
+  "ref": "John 19:17"
+ },
+ {
+  "level": 6,
+  "q": "Who asked Pilate for the body of Jesus?",
+  "options": [
+   "Nicodemus",
+   "Joseph of Arimathea",
+   "Peter",
+   "John"
+  ],
+  "answer": 1,
+  "ref": "Mark 15:43"
+ },
+ {
+  "level": 6,
+  "q": "On which day did Jesus rise from the dead?",
+  "options": [
+   "The same day",
+   "The second day",
+   "The third day",
+   "The seventh day"
+  ],
+  "answer": 2,
+  "ref": "Luke 24:7"
+ },
+ {
+  "level": 6,
+  "q": "Which disciple doubted the resurrection until he saw Jesus' wounds?",
+  "options": [
+   "Philip",
+   "Thomas",
+   "Andrew",
+   "Matthew"
+  ],
+  "answer": 1,
+  "ref": "John 20:25"
+ },
+ {
+  "level": 7,
+  "q": "On what day did the Holy Spirit fall on the disciples?",
+  "options": [
+   "Passover",
+   "Pentecost",
+   "Sabbath",
+   "Tabernacles"
+  ],
+  "answer": 1,
+  "ref": "Acts 2:1-4"
+ },
+ {
+  "level": 7,
+  "q": "Who preached the sermon at Pentecost when 3,000 were saved?",
+  "options": [
+   "Paul",
+   "John",
+   "Peter",
+   "Stephen"
+  ],
+  "answer": 2,
+  "ref": "Acts 2:14, 41"
+ },
+ {
+  "level": 7,
+  "q": "Who was the first Christian martyr?",
+  "options": [
+   "James",
+   "Stephen",
+   "Peter",
+   "Philip"
+  ],
+  "answer": 1,
+  "ref": "Acts 7:59-60"
+ },
+ {
+  "level": 7,
+  "q": "On the road to which city was Saul converted?",
+  "options": [
+   "Jerusalem",
+   "Antioch",
+   "Damascus",
+   "Tarsus"
+  ],
+  "answer": 2,
+  "ref": "Acts 9:3"
+ },
+ {
+  "level": 7,
+  "q": "Who was the sorcerer that offered money for the power of the Holy Spirit?",
+  "options": [
+   "Elymas",
+   "Simon",
+   "Bar-Jesus",
+   "Demetrius"
+  ],
+  "answer": 1,
+  "ref": "Acts 8:18-19"
+ },
+ {
+  "level": 7,
+  "q": "Which Gentile centurion's household received the Holy Spirit through Peter?",
+  "options": [
+   "Julius",
+   "Cornelius",
+   "Claudius",
+   "Theophilus"
+  ],
+  "answer": 1,
+  "ref": "Acts 10"
+ },
+ {
+  "level": 7,
+  "q": "Where were the disciples first called Christians?",
+  "options": [
+   "Jerusalem",
+   "Rome",
+   "Antioch",
+   "Ephesus"
+  ],
+  "answer": 2,
+  "ref": "Acts 11:26"
+ },
+ {
+  "level": 7,
+  "q": "Who fell asleep and fell from a window while Paul was preaching?",
+  "options": [
+   "Eutychus",
+   "Tychicus",
+   "Trophimus",
+   "Timothy"
+  ],
+  "answer": 0,
+  "ref": "Acts 20:9"
+ },
+ {
+  "level": 7,
+  "q": "Which couple died for lying to the Holy Spirit about their offering?",
+  "options": [
+   "Aquila & Priscilla",
+   "Ananias & Sapphira",
+   "Philemon & Apphia",
+   "Andronicus & Junia"
+  ],
+  "answer": 1,
+  "ref": "Acts 5:1-10"
+ },
+ {
+  "level": 7,
+  "q": "Who was chosen to replace Judas among the twelve?",
+  "options": [
+   "Barnabas",
+   "Matthias",
+   "Justus",
+   "Silas"
+  ],
+  "answer": 1,
+  "ref": "Acts 1:26"
+ },
+ {
+  "level": 7,
+  "q": "What happened when Paul and Silas sang praises in prison at midnight?",
+  "options": [
+   "They were released by the guard",
+   "An earthquake opened the doors",
+   "An angel led them out",
+   "The jailer fell asleep"
+  ],
+  "answer": 1,
+  "ref": "Acts 16:25-26"
+ },
+ {
+  "level": 7,
+  "q": "On which island was Paul shipwrecked and bitten by a viper?",
+  "options": [
+   "Cyprus",
+   "Crete",
+   "Malta",
+   "Patmos"
+  ],
+  "answer": 2,
+  "ref": "Acts 28:1-3"
+ },
+ {
+  "level": 8,
+  "q": "What sign did God give Noah as a covenant never to flood the earth again?",
+  "options": [
+   "A dove",
+   "A rainbow",
+   "An olive branch",
+   "A star"
+  ],
+  "answer": 1,
+  "ref": "Genesis 9:13"
+ },
+ {
+  "level": 8,
+  "q": "What was Abraham's name before God changed it?",
+  "options": [
+   "Abram",
+   "Aram",
+   "Amram",
+   "Abimelech"
+  ],
+  "answer": 0,
+  "ref": "Genesis 17:5"
+ },
+ {
+  "level": 8,
+  "q": "What did Esau sell to Jacob for a bowl of stew?",
+  "options": [
+   "His flock",
+   "His birthright",
+   "His coat",
+   "His land"
+  ],
+  "answer": 1,
+  "ref": "Genesis 25:33"
+ },
+ {
+  "level": 8,
+  "q": "How many years did Jacob serve Laban for Rachel in total?",
+  "options": [
+   "7",
+   "10",
+   "14",
+   "20"
+  ],
+  "answer": 2,
+  "ref": "Genesis 29:27-28"
+ },
+ {
+  "level": 8,
+  "q": "What did Joseph's brothers do to him at Dothan?",
+  "options": [
+   "Beat him and left him",
+   "Sold him to Ishmaelite traders",
+   "Stoned him",
+   "Sent him back home"
+  ],
+  "answer": 1,
+  "ref": "Genesis 37:28"
+ },
+ {
+  "level": 8,
+  "q": "Whose dream did Joseph interpret in prison that led to his release?",
+  "options": [
+   "The baker's",
+   "The cupbearer's",
+   "Pharaoh's",
+   "The jailer's"
+  ],
+  "answer": 1,
+  "ref": "Genesis 40-41"
+ },
+ {
+  "level": 8,
+  "q": "How many years of famine did Pharaoh's dream predict?",
+  "options": [
+   "3",
+   "5",
+   "7",
+   "12"
+  ],
+  "answer": 2,
+  "ref": "Genesis 41:30"
+ },
+ {
+  "level": 8,
+  "q": "Who was Abraham's nephew that settled in Sodom?",
+  "options": [
+   "Laban",
+   "Lot",
+   "Eliezer",
+   "Ishmael"
+  ],
+  "answer": 1,
+  "ref": "Genesis 13:12"
+ },
+ {
+  "level": 8,
+  "q": "What was the name of the place where Abraham nearly sacrificed Isaac?",
+  "options": [
+   "Mount Sinai",
+   "Mount Moriah",
+   "Mount Carmel",
+   "Mount Nebo"
+  ],
+  "answer": 1,
+  "ref": "Genesis 22:2"
+ },
+ {
+  "level": 8,
+  "q": "Who wrestled with God all night and was renamed Israel?",
+  "options": [
+   "Abraham",
+   "Isaac",
+   "Jacob",
+   "Joseph"
+  ],
+  "answer": 2,
+  "ref": "Genesis 32:28"
+ },
+ {
+  "level": 8,
+  "q": "What did Lot's wife become when she looked back at Sodom?",
+  "options": [
+   "Dust",
+   "A pillar of salt",
+   "A stone",
+   "Ashes"
+  ],
+  "answer": 1,
+  "ref": "Genesis 19:26"
+ },
+ {
+  "level": 8,
+  "q": "Which of Jacob's sons received the coat of many colours?",
+  "options": [
+   "Reuben",
+   "Judah",
+   "Joseph",
+   "Benjamin"
+  ],
+  "answer": 2,
+  "ref": "Genesis 37:3"
+ },
+ {
+  "level": 9,
+  "q": "In what did Moses' mother hide him on the river Nile?",
+  "options": [
+   "A clay pot",
+   "A basket of bulrushes",
+   "A wooden chest",
+   "A fishing boat"
+  ],
+  "answer": 1,
+  "ref": "Exodus 2:3"
+ },
+ {
+  "level": 9,
+  "q": "What was the first plague God sent on Egypt?",
+  "options": [
+   "Frogs",
+   "Darkness",
+   "Water turned to blood",
+   "Locusts"
+  ],
+  "answer": 2,
+  "ref": "Exodus 7:20"
+ },
+ {
+  "level": 9,
+  "q": "What was the last plague on Egypt?",
+  "options": [
+   "Hail",
+   "Boils",
+   "Darkness",
+   "Death of the firstborn"
+  ],
+  "answer": 3,
+  "ref": "Exodus 12:29"
+ },
+ {
+  "level": 9,
+  "q": "What did the Israelites put on their doorposts at the first Passover?",
+  "options": [
+   "Olive oil",
+   "The blood of a lamb",
+   "Water",
+   "Ashes"
+  ],
+  "answer": 1,
+  "ref": "Exodus 12:7"
+ },
+ {
+  "level": 9,
+  "q": "How did God guide Israel through the wilderness by day?",
+  "options": [
+   "A pillar of fire",
+   "A pillar of cloud",
+   "An angel with a sword",
+   "A bright star"
+  ],
+  "answer": 1,
+  "ref": "Exodus 13:21"
+ },
+ {
+  "level": 9,
+  "q": "What bread did God rain from heaven in the wilderness?",
+  "options": [
+   "Showbread",
+   "Manna",
+   "Unleavened bread",
+   "Barley loaves"
+  ],
+  "answer": 1,
+  "ref": "Exodus 16:15"
+ },
+ {
+  "level": 9,
+  "q": "On which mountain did Moses receive the Ten Commandments?",
+  "options": [
+   "Mount Nebo",
+   "Mount Horeb",
+   "Mount Sinai",
+   "Mount Zion"
+  ],
+  "answer": 2,
+  "ref": "Exodus 19:20"
+ },
+ {
+  "level": 9,
+  "q": "What golden idol did Israel make while Moses was on the mountain?",
+  "options": [
+   "A golden eagle",
+   "A golden calf",
+   "A golden serpent",
+   "A golden lion"
+  ],
+  "answer": 1,
+  "ref": "Exodus 32:4"
+ },
+ {
+  "level": 9,
+  "q": "How many spies did Moses send into Canaan?",
+  "options": [
+   "2",
+   "10",
+   "12",
+   "40"
+  ],
+  "answer": 2,
+  "ref": "Numbers 13"
+ },
+ {
+  "level": 9,
+  "q": "Which two spies believed God could give Israel the land?",
+  "options": [
+   "Joshua and Caleb",
+   "Moses and Aaron",
+   "Eldad and Medad",
+   "Nadab and Abihu"
+  ],
+  "answer": 0,
+  "ref": "Numbers 14:6-9"
+ },
+ {
+  "level": 9,
+  "q": "How many years did Israel wander in the wilderness?",
+  "options": [
+   "7",
+   "12",
+   "40",
+   "70"
+  ],
+  "answer": 2,
+  "ref": "Numbers 14:33"
+ },
+ {
+  "level": 9,
+  "q": "What did Moses lift up in the wilderness so the bitten could live?",
+  "options": [
+   "His staff",
+   "A bronze serpent",
+   "The ark",
+   "A lamb"
+  ],
+  "answer": 1,
+  "ref": "Numbers 21:9"
+ },
+ {
+  "level": 10,
+  "q": "Which river did Israel cross on dry ground to enter Canaan?",
+  "options": [
+   "The Nile",
+   "The Euphrates",
+   "The Jordan",
+   "The Red Sea"
+  ],
+  "answer": 2,
+  "ref": "Joshua 3:17"
+ },
+ {
+  "level": 10,
+  "q": "How many times did Israel march around Jericho on the seventh day?",
+  "options": [
+   "Once",
+   "Three times",
+   "Seven times",
+   "Twelve times"
+  ],
+  "answer": 2,
+  "ref": "Joshua 6:15"
+ },
+ {
+  "level": 10,
+  "q": "Who hid the Israelite spies in Jericho?",
+  "options": [
+   "Deborah",
+   "Rahab",
+   "Ruth",
+   "Jael"
+  ],
+  "answer": 1,
+  "ref": "Joshua 2:6"
+ },
+ {
+  "level": 10,
+  "q": "Whose sin caused Israel's defeat at Ai?",
+  "options": [
+   "Achan's",
+   "Eli's",
+   "Saul's",
+   "Korah's"
+  ],
+  "answer": 0,
+  "ref": "Joshua 7:20-21"
+ },
+ {
+  "level": 10,
+  "q": "For whom did the sun stand still in battle?",
+  "options": [
+   "Moses",
+   "Joshua",
+   "Gideon",
+   "David"
+  ],
+  "answer": 1,
+  "ref": "Joshua 10:13"
+ },
+ {
+  "level": 10,
+  "q": "Which judge defeated Midian with only 300 men?",
+  "options": [
+   "Samson",
+   "Jephthah",
+   "Gideon",
+   "Ehud"
+  ],
+  "answer": 2,
+  "ref": "Judges 7:7"
+ },
+ {
+  "level": 10,
+  "q": "What sign did Gideon ask of God with a fleece?",
+  "options": [
+   "Fire from heaven",
+   "Dew on the fleece only",
+   "The fleece turned white",
+   "The fleece floated"
+  ],
+  "answer": 1,
+  "ref": "Judges 6:37"
+ },
+ {
+  "level": 10,
+  "q": "Where did Samson's great strength come from?",
+  "options": [
+   "His arms",
+   "His Nazirite vow to God (uncut hair)",
+   "A magic belt",
+   "The jawbone he carried"
+  ],
+  "answer": 1,
+  "ref": "Judges 16:17"
+ },
+ {
+  "level": 10,
+  "q": "Who cut Samson's hair?",
+  "options": [
+   "Delilah had a man shave him as he slept",
+   "The Philistine king",
+   "He cut it himself",
+   "His mother"
+  ],
+  "answer": 0,
+  "ref": "Judges 16:19"
+ },
+ {
+  "level": 10,
+  "q": "Which prophetess judged Israel and went to battle with Barak?",
+  "options": [
+   "Miriam",
+   "Huldah",
+   "Deborah",
+   "Anna"
+  ],
+  "answer": 2,
+  "ref": "Judges 4:4-9"
+ },
+ {
+  "level": 10,
+  "q": "Whose mother-in-law was Naomi?",
+  "options": [
+   "Esther's",
+   "Ruth's",
+   "Hannah's",
+   "Abigail's"
+  ],
+  "answer": 1,
+  "ref": "Ruth 1:4"
+ },
+ {
+  "level": 10,
+  "q": "Who became Ruth's kinsman-redeemer and husband?",
+  "options": [
+   "Elimelech",
+   "Boaz",
+   "Obed",
+   "Mahlon"
+  ],
+  "answer": 1,
+  "ref": "Ruth 4:13"
+ },
+ {
+  "level": 11,
+  "q": "Who was Israel's first king?",
+  "options": [
+   "David",
+   "Saul",
+   "Samuel",
+   "Solomon"
+  ],
+  "answer": 1,
+  "ref": "1 Samuel 10:1"
+ },
+ {
+  "level": 11,
+  "q": "Who anointed David as king?",
+  "options": [
+   "Nathan",
+   "Eli",
+   "Samuel",
+   "Elijah"
+  ],
+  "answer": 2,
+  "ref": "1 Samuel 16:13"
+ },
+ {
+  "level": 11,
+  "q": "How many stones did David take to face Goliath?",
+  "options": [
+   "1",
+   "3",
+   "5",
+   "7"
+  ],
+  "answer": 2,
+  "ref": "1 Samuel 17:40"
+ },
+ {
+  "level": 11,
+  "q": "Who was David's closest friend, the son of Saul?",
+  "options": [
+   "Abner",
+   "Jonathan",
+   "Ish-bosheth",
+   "Joab"
+  ],
+  "answer": 1,
+  "ref": "1 Samuel 18:1"
+ },
+ {
+  "level": 11,
+  "q": "Which prophet confronted David over Bathsheba?",
+  "options": [
+   "Gad",
+   "Samuel",
+   "Nathan",
+   "Ahijah"
+  ],
+  "answer": 2,
+  "ref": "2 Samuel 12:7"
+ },
+ {
+  "level": 11,
+  "q": "What did Solomon ask God for at Gibeon?",
+  "options": [
+   "Riches",
+   "Long life",
+   "A wise and discerning heart",
+   "Victory over enemies"
+  ],
+  "answer": 2,
+  "ref": "1 Kings 3:9"
+ },
+ {
+  "level": 11,
+  "q": "How long did Solomon take to build the temple?",
+  "options": [
+   "3 years",
+   "7 years",
+   "13 years",
+   "40 years"
+  ],
+  "answer": 1,
+  "ref": "1 Kings 6:38"
+ },
+ {
+  "level": 11,
+  "q": "Which queen came to test Solomon with hard questions?",
+  "options": [
+   "Queen of Egypt",
+   "Queen Vashti",
+   "Queen of Sheba",
+   "Queen Jezebel"
+  ],
+  "answer": 2,
+  "ref": "1 Kings 10:1"
+ },
+ {
+  "level": 11,
+  "q": "Which prophet was fed by ravens at the brook Cherith?",
+  "options": [
+   "Elisha",
+   "Elijah",
+   "Jeremiah",
+   "Amos"
+  ],
+  "answer": 1,
+  "ref": "1 Kings 17:6"
+ },
+ {
+  "level": 11,
+  "q": "On which mountain did Elijah defeat the prophets of Baal?",
+  "options": [
+   "Mount Sinai",
+   "Mount Nebo",
+   "Mount Carmel",
+   "Mount Hermon"
+  ],
+  "answer": 2,
+  "ref": "1 Kings 18:19-39"
+ },
+ {
+  "level": 11,
+  "q": "How was Elijah taken to heaven?",
+  "options": [
+   "He died in peace",
+   "In a whirlwind with chariots of fire",
+   "On angels' wings",
+   "Through the Jordan"
+  ],
+  "answer": 1,
+  "ref": "2 Kings 2:11"
+ },
+ {
+  "level": 11,
+  "q": "What portion of Elijah's spirit did Elisha ask for?",
+  "options": [
+   "An equal portion",
+   "A double portion",
+   "A third",
+   "All of it"
+  ],
+  "answer": 1,
+  "ref": "2 Kings 2:9"
+ },
+ {
+  "level": 12,
+  "q": "Complete: \"The fear of the LORD is the beginning of…\"",
+  "options": [
+   "life",
+   "wisdom",
+   "riches",
+   "peace"
+  ],
+  "answer": 1,
+  "ref": "Proverbs 9:10"
+ },
+ {
+  "level": 12,
+  "q": "Which Psalm begins \"The LORD is my shepherd\"?",
+  "options": [
+   "Psalm 1",
+   "Psalm 23",
+   "Psalm 91",
+   "Psalm 100"
+  ],
+  "answer": 1,
+  "ref": "Psalm 23:1"
+ },
+ {
+  "level": 12,
+  "q": "\"Trust in the LORD with all your heart and lean not on…\"",
+  "options": [
+   "your feelings",
+   "your own understanding",
+   "the words of men",
+   "your riches"
+  ],
+  "answer": 1,
+  "ref": "Proverbs 3:5"
+ },
+ {
+  "level": 12,
+  "q": "According to Psalm 119, what is a lamp to my feet?",
+  "options": [
+   "Prayer",
+   "Your word",
+   "Wisdom",
+   "Faith"
+  ],
+  "answer": 1,
+  "ref": "Psalm 119:105"
+ },
+ {
+  "level": 12,
+  "q": "Who wrote most of the book of Proverbs?",
+  "options": [
+   "David",
+   "Solomon",
+   "Asaph",
+   "Agur"
+  ],
+  "answer": 1,
+  "ref": "Proverbs 1:1"
+ },
+ {
+  "level": 12,
+  "q": "\"A soft answer turns away…\"",
+  "options": [
+   "fools",
+   "wrath",
+   "sorrow",
+   "enemies"
+  ],
+  "answer": 1,
+  "ref": "Proverbs 15:1"
+ },
+ {
+  "level": 12,
+  "q": "In Ecclesiastes, what is there a time for?",
+  "options": [
+   "Only joy",
+   "Every purpose under heaven",
+   "Work alone",
+   "Feasting"
+  ],
+  "answer": 1,
+  "ref": "Ecclesiastes 3:1"
+ },
+ {
+  "level": 12,
+  "q": "Which Psalm is a prayer of repentance after David's sin with Bathsheba?",
+  "options": [
+   "Psalm 32",
+   "Psalm 51",
+   "Psalm 90",
+   "Psalm 139"
+  ],
+  "answer": 1,
+  "ref": "Psalm 51"
+ },
+ {
+  "level": 12,
+  "q": "\"Pride goes before destruction, and a haughty spirit before…\"",
+  "options": [
+   "shame",
+   "a fall",
+   "ruin",
+   "judgment"
+  ],
+  "answer": 1,
+  "ref": "Proverbs 16:18"
+ },
+ {
+  "level": 12,
+  "q": "What does Psalm 91 say God will give His angels concerning you?",
+  "options": [
+   "Charge over you",
+   "Songs about you",
+   "Messages for you",
+   "Crowns for you"
+  ],
+  "answer": 0,
+  "ref": "Psalm 91:11"
+ },
+ {
+  "level": 12,
+  "q": "According to Proverbs 22:6, what should you do with a child?",
+  "options": [
+   "Discipline him daily",
+   "Train him up in the way he should go",
+   "Send him to the elders",
+   "Teach him a trade"
+  ],
+  "answer": 1,
+  "ref": "Proverbs 22:6"
+ },
+ {
+  "level": 12,
+  "q": "Who wrote Ecclesiastes, calling himself 'the Preacher'?",
+  "options": [
+   "David",
+   "Solomon",
+   "Hezekiah",
+   "Isaiah"
+  ],
+  "answer": 1,
+  "ref": "Ecclesiastes 1:1"
+ },
+ {
+  "level": 13,
+  "q": "Which prophet saw the Lord high and lifted up, with seraphim crying \"Holy, holy, holy\"?",
+  "options": [
+   "Ezekiel",
+   "Isaiah",
+   "Daniel",
+   "Amos"
+  ],
+  "answer": 1,
+  "ref": "Isaiah 6:1-3"
+ },
+ {
+  "level": 13,
+  "q": "Which prophet was told to marry an unfaithful wife as a picture of Israel?",
+  "options": [
+   "Joel",
+   "Amos",
+   "Hosea",
+   "Micah"
+  ],
+  "answer": 2,
+  "ref": "Hosea 1:2"
+ },
+ {
+  "level": 13,
+  "q": "Who saw a valley of dry bones come to life?",
+  "options": [
+   "Isaiah",
+   "Jeremiah",
+   "Ezekiel",
+   "Zechariah"
+  ],
+  "answer": 2,
+  "ref": "Ezekiel 37"
+ },
+ {
+  "level": 13,
+  "q": "Which prophet was thrown into a den of lions?",
+  "options": [
+   "Daniel",
+   "Jeremiah",
+   "Micaiah",
+   "Jonah"
+  ],
+  "answer": 0,
+  "ref": "Daniel 6:16"
+ },
+ {
+  "level": 13,
+  "q": "Who interpreted the writing on the wall for Belshazzar?",
+  "options": [
+   "Joseph",
+   "Daniel",
+   "Ezra",
+   "Mordecai"
+  ],
+  "answer": 1,
+  "ref": "Daniel 5:25-28"
+ },
+ {
+  "level": 13,
+  "q": "How many Hebrew men were thrown into the fiery furnace?",
+  "options": [
+   "Two",
+   "Three",
+   "Four",
+   "Seven"
+  ],
+  "answer": 1,
+  "ref": "Daniel 3:23"
+ },
+ {
+  "level": 13,
+  "q": "Which prophet is called 'the weeping prophet'?",
+  "options": [
+   "Isaiah",
+   "Jeremiah",
+   "Joel",
+   "Habakkuk"
+  ],
+  "answer": 1,
+  "ref": "Jeremiah 9:1"
+ },
+ {
+  "level": 13,
+  "q": "Where did Jonah try to flee instead of going to Nineveh?",
+  "options": [
+   "Egypt",
+   "Tarshish",
+   "Babylon",
+   "Damascus"
+  ],
+  "answer": 1,
+  "ref": "Jonah 1:3"
+ },
+ {
+  "level": 13,
+  "q": "How long was Jonah in the belly of the great fish?",
+  "options": [
+   "One day",
+   "Three days and three nights",
+   "Seven days",
+   "Forty days"
+  ],
+  "answer": 1,
+  "ref": "Jonah 1:17"
+ },
+ {
+  "level": 13,
+  "q": "Which book promises: \"I will pour out my Spirit on all flesh\"?",
+  "options": [
+   "Isaiah",
+   "Joel",
+   "Malachi",
+   "Zephaniah"
+  ],
+  "answer": 1,
+  "ref": "Joel 2:28"
+ },
+ {
+  "level": 13,
+  "q": "In Isaiah 53, the suffering servant was wounded for our…",
+  "options": [
+   "weakness",
+   "transgressions",
+   "enemies",
+   "sicknesses only"
+  ],
+  "answer": 1,
+  "ref": "Isaiah 53:5"
+ },
+ {
+  "level": 13,
+  "q": "Which prophet said, \"But let justice roll down like waters\"?",
+  "options": [
+   "Amos",
+   "Obadiah",
+   "Nahum",
+   "Haggai"
+  ],
+  "answer": 0,
+  "ref": "Amos 5:24"
+ },
+ {
+  "level": 14,
+  "q": "Which book asks: \"Will a man rob God?\" concerning tithes?",
+  "options": [
+   "Haggai",
+   "Malachi",
+   "Zechariah",
+   "Micah"
+  ],
+  "answer": 1,
+  "ref": "Malachi 3:8"
+ },
+ {
+  "level": 14,
+  "q": "Which prophet rebuilt-focused book says \"Consider your ways\" about the unbuilt temple?",
+  "options": [
+   "Ezra",
+   "Haggai",
+   "Nehemiah",
+   "Zechariah"
+  ],
+  "answer": 1,
+  "ref": "Haggai 1:7"
+ },
+ {
+  "level": 14,
+  "q": "\"Not by might, nor by power, but by my Spirit\" is found in…",
+  "options": [
+   "Zechariah",
+   "Zephaniah",
+   "Habakkuk",
+   "Hosea"
+  ],
+  "answer": 0,
+  "ref": "Zechariah 4:6"
+ },
+ {
+  "level": 14,
+  "q": "Which prophet stood on his watch and was told \"the just shall live by his faith\"?",
+  "options": [
+   "Nahum",
+   "Habakkuk",
+   "Obadiah",
+   "Jonah"
+  ],
+  "answer": 1,
+  "ref": "Habakkuk 2:4"
+ },
+ {
+  "level": 14,
+  "q": "Micah 6:8 — what does the LORD require of you?",
+  "options": [
+   "Sacrifices and offerings",
+   "To do justly, love mercy, walk humbly",
+   "To fast twice a week",
+   "To build His temple"
+  ],
+  "answer": 1,
+  "ref": "Micah 6:8"
+ },
+ {
+  "level": 14,
+  "q": "Which prophet foretold that the Messiah would be born in Bethlehem?",
+  "options": [
+   "Isaiah",
+   "Micah",
+   "Zechariah",
+   "Hosea"
+  ],
+  "answer": 1,
+  "ref": "Micah 5:2"
+ },
+ {
+  "level": 14,
+  "q": "The shortest book of the Old Testament, against Edom, is…",
+  "options": [
+   "Nahum",
+   "Obadiah",
+   "Haggai",
+   "Jude"
+  ],
+  "answer": 1,
+  "ref": "Obadiah 1"
+ },
+ {
+  "level": 14,
+  "q": "Nahum pronounced judgment on which city?",
+  "options": [
+   "Babylon",
+   "Tyre",
+   "Nineveh",
+   "Samaria"
+  ],
+  "answer": 2,
+  "ref": "Nahum 1:1"
+ },
+ {
+  "level": 14,
+  "q": "\"The LORD your God in your midst… will rejoice over you with singing\" is from…",
+  "options": [
+   "Zephaniah",
+   "Joel",
+   "Amos",
+   "Malachi"
+  ],
+  "answer": 0,
+  "ref": "Zephaniah 3:17"
+ },
+ {
+  "level": 14,
+  "q": "Malachi promises Elijah will come before the great day — the New Testament applies this to…",
+  "options": [
+   "Peter",
+   "John the Baptist",
+   "Paul",
+   "Stephen"
+  ],
+  "answer": 1,
+  "ref": "Malachi 4:5; Matthew 11:14"
+ },
+ {
+  "level": 14,
+  "q": "Which prophet's name means 'My messenger'?",
+  "options": [
+   "Micah",
+   "Malachi",
+   "Amos",
+   "Joel"
+  ],
+  "answer": 1,
+  "ref": "Malachi 1:1"
+ },
+ {
+  "level": 14,
+  "q": "Hosea says: \"My people are destroyed for lack of…\"",
+  "options": [
+   "faith",
+   "knowledge",
+   "unity",
+   "sacrifice"
+  ],
+  "answer": 1,
+  "ref": "Hosea 4:6"
+ },
+ {
+  "level": 15,
+  "q": "Which epistle says: \"I can do all things through Christ who strengthens me\"?",
+  "options": [
+   "Romans",
+   "Ephesians",
+   "Philippians",
+   "Colossians"
+  ],
+  "answer": 2,
+  "ref": "Philippians 4:13"
+ },
+ {
+  "level": 15,
+  "q": "The fruit of the Spirit is listed in which chapter?",
+  "options": [
+   "Romans 8",
+   "Galatians 5",
+   "Ephesians 4",
+   "1 Corinthians 12"
+  ],
+  "answer": 1,
+  "ref": "Galatians 5:22-23"
+ },
+ {
+  "level": 15,
+  "q": "How many pieces make up the whole armour of God in Ephesians 6?",
+  "options": [
+   "Four",
+   "Five",
+   "Six",
+   "Seven"
+  ],
+  "answer": 2,
+  "ref": "Ephesians 6:14-17"
+ },
+ {
+  "level": 15,
+  "q": "\"For by grace you have been saved through faith\" is from…",
+  "options": [
+   "Romans 5",
+   "Ephesians 2",
+   "Titus 3",
+   "Galatians 2"
+  ],
+  "answer": 1,
+  "ref": "Ephesians 2:8"
+ },
+ {
+  "level": 15,
+  "q": "The 'love chapter' of the Bible is…",
+  "options": [
+   "Romans 12",
+   "1 Corinthians 13",
+   "1 John 4",
+   "John 15"
+  ],
+  "answer": 1,
+  "ref": "1 Corinthians 13"
+ },
+ {
+  "level": 15,
+  "q": "To whom did Paul write: \"Let no one despise your youth\"?",
+  "options": [
+   "Titus",
+   "Timothy",
+   "Philemon",
+   "Silas"
+  ],
+  "answer": 1,
+  "ref": "1 Timothy 4:12"
+ },
+ {
+  "level": 15,
+  "q": "In Romans, \"all have sinned and fall short of…\"",
+  "options": [
+   "the law",
+   "the glory of God",
+   "righteousness",
+   "the kingdom"
+  ],
+  "answer": 1,
+  "ref": "Romans 3:23"
+ },
+ {
+  "level": 15,
+  "q": "Which runaway slave did Paul send back to his master with a letter?",
+  "options": [
+   "Onesimus",
+   "Epaphras",
+   "Demas",
+   "Tychicus"
+  ],
+  "answer": 0,
+  "ref": "Philemon 10-12"
+ },
+ {
+  "level": 15,
+  "q": "\"Rejoice always, pray without ceasing, in everything give thanks\" is from…",
+  "options": [
+   "Philippians 4",
+   "1 Thessalonians 5",
+   "Colossians 3",
+   "2 Timothy 2"
+  ],
+  "answer": 1,
+  "ref": "1 Thessalonians 5:16-18"
+ },
+ {
+  "level": 15,
+  "q": "Which epistle calls Christ \"the image of the invisible God, the firstborn over all creation\"?",
+  "options": [
+   "Hebrews",
+   "Colossians",
+   "Ephesians",
+   "Romans"
+  ],
+  "answer": 1,
+  "ref": "Colossians 1:15"
+ },
+ {
+  "level": 15,
+  "q": "Paul's thorn in the flesh was met with what answer from God?",
+  "options": [
+   "It was removed at once",
+   "\"My grace is sufficient for you\"",
+   "\"Fast and it will leave\"",
+   "Silence"
+  ],
+  "answer": 1,
+  "ref": "2 Corinthians 12:9"
+ },
+ {
+  "level": 15,
+  "q": "\"The wages of sin is death, but the gift of God is…\"",
+  "options": [
+   "mercy",
+   "eternal life in Christ Jesus",
+   "peace with men",
+   "the Holy Spirit"
+  ],
+  "answer": 1,
+  "ref": "Romans 6:23"
+ },
+ {
+  "level": 16,
+  "q": "\"Faith is the substance of things hoped for\" is found in…",
+  "options": [
+   "Hebrews 11:1",
+   "James 1:2",
+   "Romans 10:17",
+   "1 Peter 1:7"
+  ],
+  "answer": 0,
+  "ref": "Hebrews 11:1"
+ },
+ {
+  "level": 16,
+  "q": "James says faith without works is…",
+  "options": [
+   "weak",
+   "dead",
+   "small",
+   "hidden"
+  ],
+  "answer": 1,
+  "ref": "James 2:26"
+ },
+ {
+  "level": 16,
+  "q": "Who is called our great High Priest after the order of Melchizedek?",
+  "options": [
+   "Aaron",
+   "Jesus",
+   "Moses",
+   "Samuel"
+  ],
+  "answer": 1,
+  "ref": "Hebrews 6:20"
+ },
+ {
+  "level": 16,
+  "q": "\"Cast all your care upon Him, for He cares for you\" is from…",
+  "options": [
+   "1 Peter 5:7",
+   "James 4:7",
+   "2 Peter 1:4",
+   "Jude 24"
+  ],
+  "answer": 0,
+  "ref": "1 Peter 5:7"
+ },
+ {
+  "level": 16,
+  "q": "According to 1 John, \"God is…\" (two statements in the letter)",
+  "options": [
+   "Spirit and truth",
+   "light and love",
+   "just and mighty",
+   "holy and jealous"
+  ],
+  "answer": 1,
+  "ref": "1 John 1:5; 4:8"
+ },
+ {
+  "level": 16,
+  "q": "Who wrote Revelation, and on which island?",
+  "options": [
+   "Peter, on Crete",
+   "John, on Patmos",
+   "Paul, on Malta",
+   "James, on Cyprus"
+  ],
+  "answer": 1,
+  "ref": "Revelation 1:9"
+ },
+ {
+  "level": 16,
+  "q": "How many churches receive letters in Revelation 2–3?",
+  "options": [
+   "Three",
+   "Five",
+   "Seven",
+   "Twelve"
+  ],
+  "answer": 2,
+  "ref": "Revelation 1:11"
+ },
+ {
+  "level": 16,
+  "q": "Which church was neither cold nor hot — lukewarm?",
+  "options": [
+   "Ephesus",
+   "Smyrna",
+   "Laodicea",
+   "Philadelphia"
+  ],
+  "answer": 2,
+  "ref": "Revelation 3:16"
+ },
+ {
+  "level": 16,
+  "q": "\"Behold, I stand at the door and knock\" was said to which church?",
+  "options": [
+   "Laodicea",
+   "Sardis",
+   "Pergamum",
+   "Thyatira"
+  ],
+  "answer": 0,
+  "ref": "Revelation 3:20"
+ },
+ {
+  "level": 16,
+  "q": "In Revelation, who is 'the Lion of the tribe of Judah'?",
+  "options": [
+   "Michael",
+   "The Lamb — Jesus",
+   "The rider on the black horse",
+   "The angel of the church"
+  ],
+  "answer": 1,
+  "ref": "Revelation 5:5"
+ },
+ {
+  "level": 16,
+  "q": "What is the number of the beast?",
+  "options": [
+   "616",
+   "666",
+   "777",
+   "999"
+  ],
+  "answer": 1,
+  "ref": "Revelation 13:18"
+ },
+ {
+  "level": 16,
+  "q": "What comes down out of heaven at the end of Revelation?",
+  "options": [
+   "A new temple",
+   "The new Jerusalem",
+   "A sea of glass",
+   "The ark"
+  ],
+  "answer": 1,
+  "ref": "Revelation 21:2"
+ },
+ {
+  "level": 17,
+  "q": "How many years did Adam live?",
+  "options": [
+   "777",
+   "912",
+   "930",
+   "969"
+  ],
+  "answer": 2,
+  "ref": "Genesis 5:5"
+ },
+ {
+  "level": 17,
+  "q": "Who was the oldest man in the Bible, and how old?",
+  "options": [
+   "Adam, 930",
+   "Noah, 950",
+   "Methuselah, 969",
+   "Jared, 962"
+  ],
+  "answer": 2,
+  "ref": "Genesis 5:27"
+ },
+ {
+  "level": 17,
+  "q": "How many people were saved in Noah's ark?",
+  "options": [
+   "6",
+   "8",
+   "12",
+   "70"
+  ],
+  "answer": 1,
+  "ref": "1 Peter 3:20"
+ },
+ {
+  "level": 17,
+  "q": "How many days and nights did it rain during the flood?",
+  "options": [
+   "7",
+   "40",
+   "100",
+   "150"
+  ],
+  "answer": 1,
+  "ref": "Genesis 7:12"
+ },
+ {
+  "level": 17,
+  "q": "How old was Abraham when Isaac was born?",
+  "options": [
+   "75",
+   "86",
+   "99",
+   "100"
+  ],
+  "answer": 3,
+  "ref": "Genesis 21:5"
+ },
+ {
+  "level": 17,
+  "q": "How many silver coins did the Philistine lords each offer Delilah?",
+  "options": [
+   "300",
+   "500",
+   "1,100",
+   "3,000"
+  ],
+  "answer": 2,
+  "ref": "Judges 16:5"
+ },
+ {
+  "level": 17,
+  "q": "How many men did Nebuchadnezzar see walking in the furnace?",
+  "options": [
+   "Two",
+   "Three",
+   "Four",
+   "Five"
+  ],
+  "answer": 2,
+  "ref": "Daniel 3:25"
+ },
+ {
+  "level": 17,
+  "q": "How long did it take Nehemiah's team to rebuild Jerusalem's wall?",
+  "options": [
+   "12 days",
+   "40 days",
+   "52 days",
+   "70 days"
+  ],
+  "answer": 2,
+  "ref": "Nehemiah 6:15"
+ },
+ {
+  "level": 17,
+  "q": "How many books are in the whole Bible?",
+  "options": [
+   "60",
+   "66",
+   "70",
+   "72"
+  ],
+  "answer": 1,
+  "ref": "39 OT + 27 NT"
+ },
+ {
+  "level": 17,
+  "q": "How many chapters are in the book of Psalms?",
+  "options": [
+   "100",
+   "119",
+   "150",
+   "176"
+  ],
+  "answer": 2,
+  "ref": "Psalm 150"
+ },
+ {
+  "level": 17,
+  "q": "For how many pieces of silver did Joseph's brothers sell him?",
+  "options": [
+   "Ten",
+   "Twenty",
+   "Thirty",
+   "Forty"
+  ],
+  "answer": 1,
+  "ref": "Genesis 37:28"
+ },
+ {
+  "level": 17,
+  "q": "How many years was the woman with the issue of blood sick?",
+  "options": [
+   "7",
+   "10",
+   "12",
+   "38"
+  ],
+  "answer": 2,
+  "ref": "Mark 5:25"
+ },
+ {
+  "level": 18,
+  "q": "Who was Timothy's grandmother, known for her sincere faith?",
+  "options": [
+   "Eunice",
+   "Lois",
+   "Priscilla",
+   "Phoebe"
+  ],
+  "answer": 1,
+  "ref": "2 Timothy 1:5"
+ },
+ {
+  "level": 18,
+  "q": "Which king of Judah was healed and given 15 more years of life?",
+  "options": [
+   "Josiah",
+   "Hezekiah",
+   "Uzziah",
+   "Jehoshaphat"
+  ],
+  "answer": 1,
+  "ref": "2 Kings 20:6"
+ },
+ {
+  "level": 18,
+  "q": "Who was the father of John the Baptist?",
+  "options": [
+   "Zacchaeus",
+   "Zechariah",
+   "Zebedee",
+   "Zedekiah"
+  ],
+  "answer": 1,
+  "ref": "Luke 1:13"
+ },
+ {
+  "level": 18,
+  "q": "Which two men appeared with Jesus at the transfiguration?",
+  "options": [
+   "Abraham and David",
+   "Moses and Elijah",
+   "Enoch and Elijah",
+   "Isaiah and Jeremiah"
+  ],
+  "answer": 1,
+  "ref": "Matthew 17:3"
+ },
+ {
+  "level": 18,
+  "q": "What was the name of the high priest's servant whose ear Peter cut off?",
+  "options": [
+   "Malchus",
+   "Alexander",
+   "Rufus",
+   "Caiaphas"
+  ],
+  "answer": 0,
+  "ref": "John 18:10"
+ },
+ {
+  "level": 18,
+  "q": "Which Moabite king hired Balaam to curse Israel?",
+  "options": [
+   "Og",
+   "Sihon",
+   "Balak",
+   "Agag"
+  ],
+  "answer": 2,
+  "ref": "Numbers 22:4-6"
+ },
+ {
+  "level": 18,
+  "q": "Who was the tax collector that climbed a sycamore tree to see Jesus?",
+  "options": [
+   "Matthew",
+   "Zacchaeus",
+   "Levi",
+   "Simon"
+  ],
+  "answer": 1,
+  "ref": "Luke 19:2-4"
+ },
+ {
+  "level": 18,
+  "q": "In which city did Aquila and Priscilla first meet Paul?",
+  "options": [
+   "Rome",
+   "Corinth",
+   "Ephesus",
+   "Athens"
+  ],
+  "answer": 1,
+  "ref": "Acts 18:1-2"
+ },
+ {
+  "level": 18,
+  "q": "Who was the queen that replaced Vashti?",
+  "options": [
+   "Abigail",
+   "Esther",
+   "Athaliah",
+   "Jezebel"
+  ],
+  "answer": 1,
+  "ref": "Esther 2:17"
+ },
+ {
+  "level": 18,
+  "q": "Mordecai uncovered a plot against which king?",
+  "options": [
+   "Nebuchadnezzar",
+   "Ahasuerus (Xerxes)",
+   "Darius",
+   "Cyrus"
+  ],
+  "answer": 1,
+  "ref": "Esther 2:21-22"
+ },
+ {
+  "level": 18,
+  "q": "Which island did Paul leave Titus on to set things in order?",
+  "options": [
+   "Cyprus",
+   "Malta",
+   "Crete",
+   "Rhodes"
+  ],
+  "answer": 2,
+  "ref": "Titus 1:5"
+ },
+ {
+  "level": 18,
+  "q": "What was Paul's trade?",
+  "options": [
+   "Fisherman",
+   "Tentmaker",
+   "Carpenter",
+   "Physician"
+  ],
+  "answer": 1,
+  "ref": "Acts 18:3"
+ },
+ {
+  "level": 19,
+  "q": "Who said: \"Am I my brother's keeper?\"",
+  "options": [
+   "Esau",
+   "Cain",
+   "Ishmael",
+   "Joseph's brothers"
+  ],
+  "answer": 1,
+  "ref": "Genesis 4:9"
+ },
+ {
+  "level": 19,
+  "q": "Who said: \"As for me and my house, we will serve the LORD\"?",
+  "options": [
+   "Moses",
+   "Joshua",
+   "Caleb",
+   "Samuel"
+  ],
+  "answer": 1,
+  "ref": "Joshua 24:15"
+ },
+ {
+  "level": 19,
+  "q": "Who said: \"Speak, LORD, for your servant hears\"?",
+  "options": [
+   "Eli",
+   "Samuel",
+   "David",
+   "Nathan"
+  ],
+  "answer": 1,
+  "ref": "1 Samuel 3:10"
+ },
+ {
+  "level": 19,
+  "q": "Who said: \"Where you go I will go… your God shall be my God\"?",
+  "options": [
+   "Naomi",
+   "Orpah",
+   "Ruth",
+   "Hannah"
+  ],
+  "answer": 2,
+  "ref": "Ruth 1:16"
+ },
+ {
+  "level": 19,
+  "q": "Who said: \"Though He slay me, yet will I trust Him\"?",
+  "options": [
+   "Job",
+   "Jeremiah",
+   "David",
+   "Habakkuk"
+  ],
+  "answer": 0,
+  "ref": "Job 13:15"
+ },
+ {
+  "level": 19,
+  "q": "Who said: \"Here am I! Send me\"?",
+  "options": [
+   "Moses",
+   "Jonah",
+   "Isaiah",
+   "Jeremiah"
+  ],
+  "answer": 2,
+  "ref": "Isaiah 6:8"
+ },
+ {
+  "level": 19,
+  "q": "Who said: \"If I perish, I perish\"?",
+  "options": [
+   "Deborah",
+   "Esther",
+   "Ruth",
+   "Mary"
+  ],
+  "answer": 1,
+  "ref": "Esther 4:16"
+ },
+ {
+  "level": 19,
+  "q": "Who said: \"You meant evil against me, but God meant it for good\"?",
+  "options": [
+   "Job",
+   "Joseph",
+   "David",
+   "Daniel"
+  ],
+  "answer": 1,
+  "ref": "Genesis 50:20"
+ },
+ {
+  "level": 19,
+  "q": "Who said: \"Lord, to whom shall we go? You have the words of eternal life\"?",
+  "options": [
+   "John",
+   "Thomas",
+   "Peter",
+   "Nathanael"
+  ],
+  "answer": 2,
+  "ref": "John 6:68"
+ },
+ {
+  "level": 19,
+  "q": "Who said: \"My Lord and my God!\" upon seeing the risen Christ?",
+  "options": [
+   "Mary Magdalene",
+   "Thomas",
+   "John",
+   "Cleopas"
+  ],
+  "answer": 1,
+  "ref": "John 20:28"
+ },
+ {
+  "level": 19,
+  "q": "Who said: \"Silver and gold I do not have, but what I do have I give you\"?",
+  "options": [
+   "Paul",
+   "Peter",
+   "John",
+   "Barnabas"
+  ],
+  "answer": 1,
+  "ref": "Acts 3:6"
+ },
+ {
+  "level": 19,
+  "q": "Who said: \"You almost persuade me to become a Christian\"?",
+  "options": [
+   "Festus",
+   "Felix",
+   "Agrippa",
+   "Pilate"
+  ],
+  "answer": 2,
+  "ref": "Acts 26:28"
+ },
+ {
+  "level": 20,
+  "q": "Which two people in the Bible never died?",
+  "options": [
+   "Moses and Elijah",
+   "Enoch and Elijah",
+   "Enoch and Melchizedek",
+   "Elijah and John"
+  ],
+  "answer": 1,
+  "ref": "Genesis 5:24; 2 Kings 2:11"
+ },
+ {
+  "level": 20,
+  "q": "Who was king of Salem and priest of God Most High, who blessed Abram?",
+  "options": [
+   "Adonizedek",
+   "Melchizedek",
+   "Abimelech",
+   "Jethro"
+  ],
+  "answer": 1,
+  "ref": "Genesis 14:18"
+ },
+ {
+  "level": 20,
+  "q": "Which prophet's bones revived a dead man who touched them?",
+  "options": [
+   "Elijah's",
+   "Elisha's",
+   "Samuel's",
+   "Isaiah's"
+  ],
+  "answer": 1,
+  "ref": "2 Kings 13:21"
+ },
+ {
+  "level": 20,
+  "q": "What was the name of Moses' father-in-law who advised him to appoint judges?",
+  "options": [
+   "Hobab",
+   "Jethro",
+   "Reuel",
+   "Both Jethro and Reuel are his names"
+  ],
+  "answer": 3,
+  "ref": "Exodus 2:18; 18:1"
+ },
+ {
+  "level": 20,
+  "q": "Which judge made a rash vow that cost him his daughter?",
+  "options": [
+   "Ibzan",
+   "Jephthah",
+   "Elon",
+   "Abdon"
+  ],
+  "answer": 1,
+  "ref": "Judges 11:30-35"
+ },
+ {
+  "level": 20,
+  "q": "In whose tomb was Jesus buried?",
+  "options": [
+   "Nicodemus'",
+   "Joseph of Arimathea's",
+   "Lazarus'",
+   "A public tomb"
+  ],
+  "answer": 1,
+  "ref": "Matthew 27:59-60"
+ },
+ {
+  "level": 20,
+  "q": "Which king consulted a medium at Endor?",
+  "options": [
+   "Ahab",
+   "Saul",
+   "Manasseh",
+   "Jeroboam"
+  ],
+  "answer": 1,
+  "ref": "1 Samuel 28:7-8"
+ },
+ {
+  "level": 20,
+  "q": "What did Ezekiel eat that tasted as sweet as honey?",
+  "options": [
+   "Manna",
+   "A scroll",
+   "Wild locusts",
+   "Figs"
+  ],
+  "answer": 1,
+  "ref": "Ezekiel 3:1-3"
+ },
+ {
+  "level": 20,
+  "q": "Who was struck dead for touching the ark of God?",
+  "options": [
+   "Uzzah",
+   "Ahio",
+   "Obed-Edom",
+   "Eleazar"
+  ],
+  "answer": 0,
+  "ref": "2 Samuel 6:6-7"
+ },
+ {
+  "level": 20,
+  "q": "Which apostle quotes Enoch's prophecy in his letter?",
+  "options": [
+   "Peter",
+   "John",
+   "Jude",
+   "James"
+  ],
+  "answer": 2,
+  "ref": "Jude 14"
+ },
+ {
+  "level": 20,
+  "q": "What were the names of the two bronze pillars of Solomon's temple?",
+  "options": [
+   "Jachin and Boaz",
+   "Uriel and Zophar",
+   "Zion and Moriah",
+   "Eben and Ezer"
+  ],
+  "answer": 0,
+  "ref": "1 Kings 7:21"
+ },
+ {
+  "level": 20,
+  "q": "Which shortest verse in the Bible reads simply \"Jesus wept\"?",
+  "options": [
+   "John 11:35",
+   "Luke 19:41",
+   "John 13:1",
+   "Mark 14:72"
+  ],
+  "answer": 0,
+  "ref": "John 11:35"
+ }
 ]

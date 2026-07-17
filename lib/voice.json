@@ -1,47 +1,846 @@
 [
-  { "message": "Do not be afraid — I have redeemed you. I have called you by name. You are Mine.", "verse": "Isaiah 43:1" },
-  { "message": "I have loved you with an everlasting love. With unfailing kindness I have drawn you to Myself, and My kindness toward you will never run out.", "verse": "Jeremiah 31:3" },
-  { "message": "A mother may forget the child at her breast — but I will never forget you. See, I have engraved you on the palms of My hands.", "verse": "Isaiah 49:15-16" },
-  { "message": "I am with you, and I am mighty to save. I rejoice over you with gladness. I quiet you with My love. I sing over you.", "verse": "Zephaniah 3:17" },
-  { "message": "Do not fear, for I am with you. Do not be dismayed, for I am your God. I will strengthen you and help you, and uphold you with My righteous right hand.", "verse": "Isaiah 41:10" },
-  { "message": "Come to Me — you who are weary and carrying too much. Lay it down. I will give you rest.", "verse": "Matthew 11:28" },
-  { "message": "I will never leave you. I will never forsake you. You have My word, and My word does not fail.", "verse": "Hebrews 13:5" },
-  { "message": "I know the plans I have for you — plans for peace and not for harm, to give you a future and a hope.", "verse": "Jeremiah 29:11" },
-  { "message": "Though the mountains move and the hills be shaken, My steadfast love for you will never be shaken, and My covenant of peace will not be removed.", "verse": "Isaiah 54:10" },
-  { "message": "My peace I leave with you — not the kind the world gives. Do not let your heart be troubled, and do not be afraid.", "verse": "John 14:27" },
-  { "message": "My grace is enough for you. Where you are weak, My power is made perfect. Lean your weakness on Me.", "verse": "2 Corinthians 12:9" },
-  { "message": "I will instruct you and teach you the way you should go. I will counsel you, and My eye will be upon you.", "verse": "Psalms 32:8" },
-  { "message": "Wait on Me, and I will renew your strength. You will rise up on wings like eagles. You will run and not grow weary; you will walk and not faint.", "verse": "Isaiah 40:31" },
-  { "message": "Be strong and courageous. Do not be afraid, and do not be discouraged — for I, the Lord your God, am with you wherever you go.", "verse": "Joshua 1:9" },
-  { "message": "When you pass through the waters, I will be with you. When you pass through the rivers, they will not overwhelm you. When you walk through fire, you will not be burned.", "verse": "Isaiah 43:2" },
-  { "message": "Whoever comes to Me, I will never turn away. Not for your past. Not for your failures. Never you.", "verse": "John 6:37" },
-  { "message": "Even to your old age, I am He. Even when your hair turns gray, I will carry you. I made you, and I will sustain you, and I will rescue you.", "verse": "Isaiah 46:4" },
-  { "message": "Call upon Me, and I will answer you. I will be with you in trouble. I will deliver you and honor you.", "verse": "Psalms 91:15" },
-  { "message": "I am the One who blots out your transgressions for My own sake — and I will remember your sins no more.", "verse": "Isaiah 43:25" },
-  { "message": "Nothing can separate you from My love — not death, not life, not the things you fear, not the things you have done. Nothing in all creation.", "verse": "Romans 8:38-39" },
-  { "message": "I am with you always — to the very end of the age. You are never walking through this alone.", "verse": "Matthew 28:20" },
-  { "message": "When you do not know which way to turn, you will hear My voice behind you saying: This is the way — walk in it.", "verse": "Isaiah 30:21" },
-  { "message": "I give you eternal life, and you will never perish. No one is able to snatch you out of My hand.", "verse": "John 10:28" },
-  { "message": "Before I formed you in the womb, I knew you. Before you were born, I set you apart. You were never an accident.", "verse": "Jeremiah 1:5" },
-  { "message": "I knit you together in your mother's womb. You are fearfully and wonderfully made — and I do not make mistakes.", "verse": "Psalms 139:13-14" },
-  { "message": "I bless you and keep you. I make My face shine upon you and am gracious to you. I turn My face toward you and give you peace.", "verse": "Numbers 6:24-26" },
-  { "message": "In this world you will have trouble — but take heart. I have overcome the world, and in Me you have peace.", "verse": "John 16:33" },
-  { "message": "A day is coming when I will wipe away every tear from your eyes. Death will be no more. Mourning and crying and pain will be no more.", "verse": "Revelation 21:4" },
-  { "message": "My mercies for you are new every morning. Great is My faithfulness. You have not exhausted My compassion — you never will.", "verse": "Lamentations 3:22-23" },
-  { "message": "Look at the birds — I feed them, and they do not worry. Are you not far more valuable to Me than they are? I will provide for you.", "verse": "Matthew 6:26" },
-  { "message": "As the Father has loved Me, so I have loved you. Now remain in My love, and let it be your home.", "verse": "John 15:9" },
-  { "message": "I am holding your right hand. I am the One who says to you: Do not fear — I Myself will help you.", "verse": "Isaiah 41:13" },
-  { "message": "I Myself go before you. I will be with you. I will never leave you nor forsake you. Do not be afraid; do not be discouraged.", "verse": "Deuteronomy 31:8" },
-  { "message": "I will keep you in perfect peace when your mind stays on Me — because you have chosen to trust Me.", "verse": "Isaiah 26:3" },
-  { "message": "Do not be afraid, little flock. It is your Father's good pleasure to give you the kingdom.", "verse": "Luke 12:32" },
-  { "message": "When your heart is broken, I am near. When your spirit is crushed, I am the One who saves.", "verse": "Psalms 34:18" },
-  { "message": "I will give you beauty instead of ashes, the oil of joy instead of mourning, a garment of praise instead of a spirit of despair.", "verse": "Isaiah 61:3" },
-  { "message": "I will not leave you as an orphan. I am coming to you. You belong to a Father who comes near.", "verse": "John 14:18" },
-  { "message": "I am your Shepherd — you will lack nothing you truly need. I lead you beside still waters. I restore your soul.", "verse": "Psalms 23:1-3" },
-  { "message": "My eyes range across the whole earth, looking to strengthen those whose heart is fully Mine. I am looking toward you.", "verse": "2 Chronicles 16:9" },
-  { "message": "Though your sins are like scarlet, I will make them white as snow. Come — let us reason it through together — and be clean.", "verse": "Isaiah 1:18" },
-  { "message": "I chose you before the foundation of the world. In love I marked you out to be My own child. You belong to Me.", "verse": "Ephesians 1:4-5" },
-  { "message": "Blessed are you when you mourn — for I Myself will be your comfort. I will not leave your grief untended.", "verse": "Matthew 5:4" },
-  { "message": "Cast all your anxiety on Me — every worry, every weight — because I care for you. I have always cared for you.", "verse": "1 Peter 5:7" },
-  { "message": "I began a good work in you, and I will be faithful to complete it. I do not abandon what I have started.", "verse": "Philippians 1:6" }
+ {
+  "message": "Do not be afraid — I have redeemed you. I have called you by name. You are Mine.",
+  "verse": "Isaiah 43:1"
+ },
+ {
+  "message": "I have loved you with an everlasting love. With unfailing kindness I have drawn you to Myself, and My kindness toward you will never run out.",
+  "verse": "Jeremiah 31:3"
+ },
+ {
+  "message": "A mother may forget the child at her breast — but I will never forget you. See, I have engraved you on the palms of My hands.",
+  "verse": "Isaiah 49:15-16"
+ },
+ {
+  "message": "I am with you, and I am mighty to save. I rejoice over you with gladness. I quiet you with My love. I sing over you.",
+  "verse": "Zephaniah 3:17"
+ },
+ {
+  "message": "Do not fear, for I am with you. Do not be dismayed, for I am your God. I will strengthen you and help you, and uphold you with My righteous right hand.",
+  "verse": "Isaiah 41:10"
+ },
+ {
+  "message": "Come to Me — you who are weary and carrying too much. Lay it down. I will give you rest.",
+  "verse": "Matthew 11:28"
+ },
+ {
+  "message": "I will never leave you. I will never forsake you. You have My word, and My word does not fail.",
+  "verse": "Hebrews 13:5"
+ },
+ {
+  "message": "I know the plans I have for you — plans for peace and not for harm, to give you a future and a hope.",
+  "verse": "Jeremiah 29:11"
+ },
+ {
+  "message": "Though the mountains move and the hills be shaken, My steadfast love for you will never be shaken, and My covenant of peace will not be removed.",
+  "verse": "Isaiah 54:10"
+ },
+ {
+  "message": "My peace I leave with you — not the kind the world gives. Do not let your heart be troubled, and do not be afraid.",
+  "verse": "John 14:27"
+ },
+ {
+  "message": "My grace is enough for you. Where you are weak, My power is made perfect. Lean your weakness on Me.",
+  "verse": "2 Corinthians 12:9"
+ },
+ {
+  "message": "I will instruct you and teach you the way you should go. I will counsel you, and My eye will be upon you.",
+  "verse": "Psalms 32:8"
+ },
+ {
+  "message": "Wait on Me, and I will renew your strength. You will rise up on wings like eagles. You will run and not grow weary; you will walk and not faint.",
+  "verse": "Isaiah 40:31"
+ },
+ {
+  "message": "Be strong and courageous. Do not be afraid, and do not be discouraged — for I, the Lord your God, am with you wherever you go.",
+  "verse": "Joshua 1:9"
+ },
+ {
+  "message": "When you pass through the waters, I will be with you. When you pass through the rivers, they will not overwhelm you. When you walk through fire, you will not be burned.",
+  "verse": "Isaiah 43:2"
+ },
+ {
+  "message": "Whoever comes to Me, I will never turn away. Not for your past. Not for your failures. Never you.",
+  "verse": "John 6:37"
+ },
+ {
+  "message": "Even to your old age, I am He. Even when your hair turns gray, I will carry you. I made you, and I will sustain you, and I will rescue you.",
+  "verse": "Isaiah 46:4"
+ },
+ {
+  "message": "Call upon Me, and I will answer you. I will be with you in trouble. I will deliver you and honor you.",
+  "verse": "Psalms 91:15"
+ },
+ {
+  "message": "I am the One who blots out your transgressions for My own sake — and I will remember your sins no more.",
+  "verse": "Isaiah 43:25"
+ },
+ {
+  "message": "Nothing can separate you from My love — not death, not life, not the things you fear, not the things you have done. Nothing in all creation.",
+  "verse": "Romans 8:38-39"
+ },
+ {
+  "message": "I am with you always — to the very end of the age. You are never walking through this alone.",
+  "verse": "Matthew 28:20"
+ },
+ {
+  "message": "When you do not know which way to turn, you will hear My voice behind you saying: This is the way — walk in it.",
+  "verse": "Isaiah 30:21"
+ },
+ {
+  "message": "I give you eternal life, and you will never perish. No one is able to snatch you out of My hand.",
+  "verse": "John 10:28"
+ },
+ {
+  "message": "Before I formed you in the womb, I knew you. Before you were born, I set you apart. You were never an accident.",
+  "verse": "Jeremiah 1:5"
+ },
+ {
+  "message": "I knit you together in your mother's womb. You are fearfully and wonderfully made — and I do not make mistakes.",
+  "verse": "Psalms 139:13-14"
+ },
+ {
+  "message": "I bless you and keep you. I make My face shine upon you and am gracious to you. I turn My face toward you and give you peace.",
+  "verse": "Numbers 6:24-26"
+ },
+ {
+  "message": "In this world you will have trouble — but take heart. I have overcome the world, and in Me you have peace.",
+  "verse": "John 16:33"
+ },
+ {
+  "message": "A day is coming when I will wipe away every tear from your eyes. Death will be no more. Mourning and crying and pain will be no more.",
+  "verse": "Revelation 21:4"
+ },
+ {
+  "message": "My mercies for you are new every morning. Great is My faithfulness. You have not exhausted My compassion — you never will.",
+  "verse": "Lamentations 3:22-23"
+ },
+ {
+  "message": "Look at the birds — I feed them, and they do not worry. Are you not far more valuable to Me than they are? I will provide for you.",
+  "verse": "Matthew 6:26"
+ },
+ {
+  "message": "As the Father has loved Me, so I have loved you. Now remain in My love, and let it be your home.",
+  "verse": "John 15:9"
+ },
+ {
+  "message": "I am holding your right hand. I am the One who says to you: Do not fear — I Myself will help you.",
+  "verse": "Isaiah 41:13"
+ },
+ {
+  "message": "I Myself go before you. I will be with you. I will never leave you nor forsake you. Do not be afraid; do not be discouraged.",
+  "verse": "Deuteronomy 31:8"
+ },
+ {
+  "message": "I will keep you in perfect peace when your mind stays on Me — because you have chosen to trust Me.",
+  "verse": "Isaiah 26:3"
+ },
+ {
+  "message": "Do not be afraid, little flock. It is your Father's good pleasure to give you the kingdom.",
+  "verse": "Luke 12:32"
+ },
+ {
+  "message": "When your heart is broken, I am near. When your spirit is crushed, I am the One who saves.",
+  "verse": "Psalms 34:18"
+ },
+ {
+  "message": "I will give you beauty instead of ashes, the oil of joy instead of mourning, a garment of praise instead of a spirit of despair.",
+  "verse": "Isaiah 61:3"
+ },
+ {
+  "message": "I will not leave you as an orphan. I am coming to you. You belong to a Father who comes near.",
+  "verse": "John 14:18"
+ },
+ {
+  "message": "I am your Shepherd — you will lack nothing you truly need. I lead you beside still waters. I restore your soul.",
+  "verse": "Psalms 23:1-3"
+ },
+ {
+  "message": "My eyes range across the whole earth, looking to strengthen those whose heart is fully Mine. I am looking toward you.",
+  "verse": "2 Chronicles 16:9"
+ },
+ {
+  "message": "Though your sins are like scarlet, I will make them white as snow. Come — let us reason it through together — and be clean.",
+  "verse": "Isaiah 1:18"
+ },
+ {
+  "message": "I chose you before the foundation of the world. In love I marked you out to be My own child. You belong to Me.",
+  "verse": "Ephesians 1:4-5"
+ },
+ {
+  "message": "Blessed are you when you mourn — for I Myself will be your comfort. I will not leave your grief untended.",
+  "verse": "Matthew 5:4"
+ },
+ {
+  "message": "Cast all your anxiety on Me — every worry, every weight — because I care for you. I have always cared for you.",
+  "verse": "1 Peter 5:7"
+ },
+ {
+  "message": "I began a good work in you, and I will be faithful to complete it. I do not abandon what I have started.",
+  "verse": "Philippians 1:6"
+ },
+ {
+  "message": "Before I formed you in the womb, I knew you. Before you were born, I set you apart.",
+  "verse": "Jeremiah 1:5"
+ },
+ {
+  "message": "I know the plans I have for you — plans to prosper you and not to harm you, to give you a future and a hope.",
+  "verse": "Jeremiah 29:11"
+ },
+ {
+  "message": "Be strong and courageous. Do not be afraid, for I am with you wherever you go.",
+  "verse": "Joshua 1:9"
+ },
+ {
+  "message": "When you pass through the waters, I will be with you. The rivers will not sweep over you.",
+  "verse": "Isaiah 43:2"
+ },
+ {
+  "message": "I will never leave you nor forsake you.",
+  "verse": "Hebrews 13:5"
+ },
+ {
+  "message": "Cast your burden on Me, and I will sustain you. I will never let the righteous be shaken.",
+  "verse": "Psalm 55:22"
+ },
+ {
+  "message": "My grace is sufficient for you, for My power is made perfect in your weakness.",
+  "verse": "2 Corinthians 12:9"
+ },
+ {
+  "message": "Come to Me, all you who are weary and burdened, and I will give you rest.",
+  "verse": "Matthew 11:28"
+ },
+ {
+  "message": "I am the Good Shepherd. You will lack nothing under My care.",
+  "verse": "Psalm 23:1"
+ },
+ {
+  "message": "Even to your old age and grey hairs, I am He who will sustain you. I have made you and I will carry you.",
+  "verse": "Isaiah 46:4"
+ },
+ {
+  "message": "You are precious in My eyes, and honoured, and I love you.",
+  "verse": "Isaiah 43:4"
+ },
+ {
+  "message": "I have engraved you on the palms of My hands.",
+  "verse": "Isaiah 49:16"
+ },
+ {
+  "message": "Can a mother forget her nursing child? Even if she could, I will never forget you.",
+  "verse": "Isaiah 49:15"
+ },
+ {
+  "message": "As far as the east is from the west, so far have I removed your sins from you.",
+  "verse": "Psalm 103:12"
+ },
+ {
+  "message": "Though your sins are like scarlet, I will make them white as snow.",
+  "verse": "Isaiah 1:18"
+ },
+ {
+  "message": "There is now no condemnation for you, because you are in Christ Jesus.",
+  "verse": "Romans 8:1"
+ },
+ {
+  "message": "I am making all things new. The old has passed away — behold, the new has come.",
+  "verse": "Revelation 21:5"
+ },
+ {
+  "message": "I began a good work in you, and I will carry it on to completion.",
+  "verse": "Philippians 1:6"
+ },
+ {
+  "message": "My thoughts toward you are more than the grains of sand.",
+  "verse": "Psalm 139:17-18"
+ },
+ {
+  "message": "I knit you together in your mother's womb. You are fearfully and wonderfully made.",
+  "verse": "Psalm 139:13-14"
+ },
+ {
+  "message": "You are the apple of My eye. I hide you in the shadow of My wings.",
+  "verse": "Psalm 17:8"
+ },
+ {
+  "message": "I rejoice over you with gladness. I quiet you with My love. I sing over you.",
+  "verse": "Zephaniah 3:17"
+ },
+ {
+  "message": "I have loved you with an everlasting love; I have drawn you with unfailing kindness.",
+  "verse": "Jeremiah 31:3"
+ },
+ {
+  "message": "Nothing — not death, not life, not anything in all creation — can separate you from My love.",
+  "verse": "Romans 8:38-39"
+ },
+ {
+  "message": "I am your refuge and strength, a very present help in trouble.",
+  "verse": "Psalm 46:1"
+ },
+ {
+  "message": "A thousand may fall at your side, but it will not come near you. I am your fortress.",
+  "verse": "Psalm 91:7"
+ },
+ {
+  "message": "I will command My angels concerning you, to guard you in all your ways.",
+  "verse": "Psalm 91:11"
+ },
+ {
+  "message": "No weapon formed against you shall prosper.",
+  "verse": "Isaiah 54:17"
+ },
+ {
+  "message": "The battle is not yours, but Mine. Stand still and see My salvation.",
+  "verse": "2 Chronicles 20:15"
+ },
+ {
+  "message": "I go before you and level the mountains. I break down gates of bronze.",
+  "verse": "Isaiah 45:2"
+ },
+ {
+  "message": "I am the LORD your God who holds your right hand and says to you: do not fear, I will help you.",
+  "verse": "Isaiah 41:13"
+ },
+ {
+  "message": "Fear not, for I am with you. Do not be dismayed, for I am your God. I will strengthen you and uphold you.",
+  "verse": "Isaiah 41:10"
+ },
+ {
+  "message": "When you are afraid, put your trust in Me. What can mere man do to you?",
+  "verse": "Psalm 56:3-4"
+ },
+ {
+  "message": "I did not give you a spirit of fear, but of power, of love, and of a sound mind.",
+  "verse": "2 Timothy 1:7"
+ },
+ {
+  "message": "My peace I give to you — not as the world gives. Do not let your heart be troubled.",
+  "verse": "John 14:27"
+ },
+ {
+  "message": "In this world you will have trouble. But take heart — I have overcome the world.",
+  "verse": "John 16:33"
+ },
+ {
+  "message": "Bring Me your requests with thanksgiving, and My peace will guard your heart and mind.",
+  "verse": "Philippians 4:6-7"
+ },
+ {
+  "message": "I am close to the broken-hearted. I save those who are crushed in spirit.",
+  "verse": "Psalm 34:18"
+ },
+ {
+  "message": "I heal the broken-hearted and bind up their wounds.",
+  "verse": "Psalm 147:3"
+ },
+ {
+  "message": "I have seen your tears. I keep every one of them in My bottle.",
+  "verse": "Psalm 56:8"
+ },
+ {
+  "message": "Weeping may endure for a night, but joy comes in the morning.",
+  "verse": "Psalm 30:5"
+ },
+ {
+  "message": "I will turn your mourning into dancing and clothe you with gladness.",
+  "verse": "Psalm 30:11"
+ },
+ {
+  "message": "I will give you beauty for ashes, the oil of joy for mourning.",
+  "verse": "Isaiah 61:3"
+ },
+ {
+  "message": "I will restore to you the years the locust has eaten.",
+  "verse": "Joel 2:25"
+ },
+ {
+  "message": "I will wipe away every tear from your eyes. Death, sorrow and pain will be no more.",
+  "verse": "Revelation 21:4"
+ },
+ {
+  "message": "I am the resurrection and the life. Whoever believes in Me will live, even though he dies.",
+  "verse": "John 11:25"
+ },
+ {
+  "message": "Because I live, you also will live.",
+  "verse": "John 14:19"
+ },
+ {
+  "message": "I am preparing a place for you, that where I am, you may be also.",
+  "verse": "John 14:2-3"
+ },
+ {
+  "message": "Seek first My kingdom and My righteousness, and everything you need will be added to you.",
+  "verse": "Matthew 6:33"
+ },
+ {
+  "message": "Look at the birds of the air — they do not sow or reap, yet I feed them. Are you not worth much more?",
+  "verse": "Matthew 6:26"
+ },
+ {
+  "message": "I will supply every need of yours according to My riches in glory in Christ Jesus.",
+  "verse": "Philippians 4:19"
+ },
+ {
+  "message": "I am able to make all grace abound to you, so that you will abound in every good work.",
+  "verse": "2 Corinthians 9:8"
+ },
+ {
+  "message": "The silver is Mine and the gold is Mine. Nothing you need is beyond My hand.",
+  "verse": "Haggai 2:8"
+ },
+ {
+  "message": "I have been young and now am old, yet I have never seen the righteous forsaken, nor his children begging bread.",
+  "verse": "Psalm 37:25"
+ },
+ {
+  "message": "Bring the whole tithe into My house and test Me — see if I will not open the windows of heaven for you.",
+  "verse": "Malachi 3:10"
+ },
+ {
+  "message": "Delight yourself in Me, and I will give you the desires of your heart.",
+  "verse": "Psalm 37:4"
+ },
+ {
+  "message": "Commit your way to Me. Trust in Me, and I will act.",
+  "verse": "Psalm 37:5"
+ },
+ {
+  "message": "Trust Me with all your heart and lean not on your own understanding. I will make your paths straight.",
+  "verse": "Proverbs 3:5-6"
+ },
+ {
+  "message": "I will instruct you and teach you in the way you should go. I will counsel you with My eye upon you.",
+  "verse": "Psalm 32:8"
+ },
+ {
+  "message": "Your ears will hear a voice behind you saying: this is the way, walk in it.",
+  "verse": "Isaiah 30:21"
+ },
+ {
+  "message": "My word is a lamp to your feet and a light to your path.",
+  "verse": "Psalm 119:105"
+ },
+ {
+  "message": "If you lack wisdom, ask Me. I give generously to all without finding fault.",
+  "verse": "James 1:5"
+ },
+ {
+  "message": "Call to Me and I will answer you, and show you great and mighty things you do not know.",
+  "verse": "Jeremiah 33:3"
+ },
+ {
+  "message": "Before you call, I will answer. While you are still speaking, I will hear.",
+  "verse": "Isaiah 65:24"
+ },
+ {
+  "message": "Ask and it will be given to you. Seek and you will find. Knock and the door will be opened.",
+  "verse": "Matthew 7:7"
+ },
+ {
+  "message": "If you abide in Me and My words abide in you, ask whatever you wish and it will be done for you.",
+  "verse": "John 15:7"
+ },
+ {
+  "message": "The eyes of the LORD run to and fro throughout the earth, to show Myself strong on behalf of those whose heart is loyal to Me.",
+  "verse": "2 Chronicles 16:9"
+ },
+ {
+  "message": "Those who wait on Me shall renew their strength. They shall mount up with wings like eagles.",
+  "verse": "Isaiah 40:31"
+ },
+ {
+  "message": "I give power to the faint, and to him who has no might I increase strength.",
+  "verse": "Isaiah 40:29"
+ },
+ {
+  "message": "My joy is your strength.",
+  "verse": "Nehemiah 8:10"
+ },
+ {
+  "message": "You can do all things through Christ who strengthens you.",
+  "verse": "Philippians 4:13"
+ },
+ {
+  "message": "Be strong in Me and in the power of My might.",
+  "verse": "Ephesians 6:10"
+ },
+ {
+  "message": "I am able to do exceedingly abundantly above all you ask or think, according to My power at work within you.",
+  "verse": "Ephesians 3:20"
+ },
+ {
+  "message": "Is anything too hard for Me?",
+  "verse": "Jeremiah 32:27"
+ },
+ {
+  "message": "With man this is impossible, but with Me all things are possible.",
+  "verse": "Matthew 19:26"
+ },
+ {
+  "message": "If you have faith as small as a mustard seed, you will say to this mountain, 'Move' — and it will move.",
+  "verse": "Matthew 17:20"
+ },
+ {
+  "message": "All things work together for good to those who love Me, who are called according to My purpose.",
+  "verse": "Romans 8:28"
+ },
+ {
+  "message": "What I open, no one can shut. What I shut, no one can open.",
+  "verse": "Revelation 3:8"
+ },
+ {
+  "message": "I know the way that you take. When I have tested you, you will come forth as gold.",
+  "verse": "Job 23:10"
+ },
+ {
+  "message": "The sufferings of this present time are not worthy to be compared with the glory that shall be revealed in you.",
+  "verse": "Romans 8:18"
+ },
+ {
+  "message": "My compassions never fail. They are new every morning. Great is My faithfulness.",
+  "verse": "Lamentations 3:22-23"
+ },
+ {
+  "message": "I am the same yesterday, today, and forever.",
+  "verse": "Hebrews 13:8"
+ },
+ {
+  "message": "Heaven and earth will pass away, but My words will never pass away.",
+  "verse": "Matthew 24:35"
+ },
+ {
+  "message": "I watch over My word to perform it.",
+  "verse": "Jeremiah 1:12"
+ },
+ {
+  "message": "My word that goes out from My mouth shall not return to Me empty — it shall accomplish what I purpose.",
+  "verse": "Isaiah 55:11"
+ },
+ {
+  "message": "I am not a man that I should lie. Have I said it, and shall I not do it?",
+  "verse": "Numbers 23:19"
+ },
+ {
+  "message": "Faithful is He who calls you, who also will do it.",
+  "verse": "1 Thessalonians 5:24"
+ },
+ {
+  "message": "You did not choose Me — I chose you, and appointed you to bear fruit that will last.",
+  "verse": "John 15:16"
+ },
+ {
+  "message": "You are a chosen generation, a royal priesthood, a holy nation, My own special people.",
+  "verse": "1 Peter 2:9"
+ },
+ {
+  "message": "You are the light of the world. Let your light shine before men.",
+  "verse": "Matthew 5:14-16"
+ },
+ {
+  "message": "You are My workmanship, created in Christ Jesus for good works I prepared beforehand.",
+  "verse": "Ephesians 2:10"
+ },
+ {
+  "message": "I have called you by name. You are Mine.",
+  "verse": "Isaiah 43:1"
+ },
+ {
+  "message": "I have made you the head and not the tail, above and not beneath.",
+  "verse": "Deuteronomy 28:13"
+ },
+ {
+  "message": "Blessed are you when you trust in Me. You will be like a tree planted by the waters that never stops bearing fruit.",
+  "verse": "Jeremiah 17:7-8"
+ },
+ {
+  "message": "Humble yourself under My mighty hand, and I will exalt you in due time.",
+  "verse": "1 Peter 5:6"
+ },
+ {
+  "message": "Your gift will make room for you and bring you before great men.",
+  "verse": "Proverbs 18:16"
+ },
+ {
+  "message": "Do not despise the day of small beginnings. I rejoice to see the work begin.",
+  "verse": "Zechariah 4:10"
+ },
+ {
+  "message": "Do not grow weary in doing good — in due season you will reap, if you do not give up.",
+  "verse": "Galatians 6:9"
+ },
+ {
+  "message": "I reward those who diligently seek Me.",
+  "verse": "Hebrews 11:6"
+ },
+ {
+  "message": "Draw near to Me, and I will draw near to you.",
+  "verse": "James 4:8"
+ },
+ {
+  "message": "Be still, and know that I am God.",
+  "verse": "Psalm 46:10"
+ },
+ {
+  "message": "In returning and rest you shall be saved. In quietness and confidence shall be your strength.",
+  "verse": "Isaiah 30:15"
+ },
+ {
+  "message": "I will keep him in perfect peace whose mind is stayed on Me.",
+  "verse": "Isaiah 26:3"
+ },
+ {
+  "message": "One thing I ask of you: love the LORD your God with all your heart, soul, mind and strength.",
+  "verse": "Mark 12:30"
+ },
+ {
+  "message": "If you confess your sins, I am faithful and just to forgive you and cleanse you from all unrighteousness.",
+  "verse": "1 John 1:9"
+ },
+ {
+  "message": "I remove your transgressions for My own sake, and I remember your sins no more.",
+  "verse": "Isaiah 43:25"
+ },
+ {
+  "message": "Return to Me, and I will return to you.",
+  "verse": "Malachi 3:7"
+ },
+ {
+  "message": "I stand at the door and knock. Open the door, and I will come in and dine with you.",
+  "verse": "Revelation 3:20"
+ },
+ {
+  "message": "My sheep hear My voice, and I know them, and they follow Me. No one can snatch them out of My hand.",
+  "verse": "John 10:27-28"
+ },
+ {
+  "message": "I am the vine, you are the branches. Abide in Me and you will bear much fruit.",
+  "verse": "John 15:5"
+ },
+ {
+  "message": "I am the way, the truth, and the life.",
+  "verse": "John 14:6"
+ },
+ {
+  "message": "I am the bread of life. Whoever comes to Me shall never hunger.",
+  "verse": "John 6:35"
+ },
+ {
+  "message": "I am the light of the world. Whoever follows Me shall not walk in darkness.",
+  "verse": "John 8:12"
+ },
+ {
+  "message": "Whoever drinks the water I give will never thirst again — it becomes a spring welling up to eternal life.",
+  "verse": "John 4:14"
+ },
+ {
+  "message": "I loved you so much that I gave My only Son, that believing in Him you should not perish but have everlasting life.",
+  "verse": "John 3:16"
+ },
+ {
+  "message": "Greater love has no one than this: to lay down his life for his friends. I call you friend.",
+  "verse": "John 15:13-15"
+ },
+ {
+  "message": "As the Father loved Me, I also have loved you. Abide in My love.",
+  "verse": "John 15:9"
+ },
+ {
+  "message": "I am with you always, even to the end of the age.",
+  "verse": "Matthew 28:20"
+ },
+ {
+  "message": "Surely goodness and mercy shall follow you all the days of your life.",
+  "verse": "Psalm 23:6"
+ },
+ {
+  "message": "I crown you with lovingkindness and tender mercies, and satisfy your mouth with good things.",
+  "verse": "Psalm 103:4-5"
+ },
+ {
+  "message": "No eye has seen, no ear has heard what I have prepared for those who love Me.",
+  "verse": "1 Corinthians 2:9"
+ },
+ {
+  "message": "I am your hiding place. I preserve you from trouble and surround you with songs of deliverance.",
+  "verse": "Psalm 32:7"
+ },
+ {
+  "message": "The name of the LORD is a strong tower — run into it and you are safe.",
+  "verse": "Proverbs 18:10"
+ },
+ {
+  "message": "I am a shield around you, your glory, and the lifter of your head.",
+  "verse": "Psalm 3:3"
+ },
+ {
+  "message": "When your father and mother forsake you, I will take you up.",
+  "verse": "Psalm 27:10"
+ },
+ {
+  "message": "I set the lonely in families.",
+  "verse": "Psalm 68:6"
+ },
+ {
+  "message": "I am a father to the fatherless and a defender of widows.",
+  "verse": "Psalm 68:5"
+ },
+ {
+  "message": "Honour Me with your firstfruits, and your barns will be filled with plenty.",
+  "verse": "Proverbs 3:9-10"
+ },
+ {
+  "message": "Give, and it will be given to you — good measure, pressed down, shaken together, running over.",
+  "verse": "Luke 6:38"
+ },
+ {
+  "message": "Do not be anxious about tomorrow. Each day has enough of its own. I hold tomorrow.",
+  "verse": "Matthew 6:34"
+ },
+ {
+  "message": "My presence will go with you, and I will give you rest.",
+  "verse": "Exodus 33:14"
+ },
+ {
+  "message": "I go before you; I will be with you. I will never fail you. Do not fear or be dismayed.",
+  "verse": "Deuteronomy 31:8"
+ },
+ {
+  "message": "The eternal God is your refuge, and underneath are the everlasting arms.",
+  "verse": "Deuteronomy 33:27"
+ },
+ {
+  "message": "I bless you and keep you. I make My face shine upon you and give you peace.",
+  "verse": "Numbers 6:24-26"
+ },
+ {
+  "message": "You will go out with joy and be led forth with peace. The mountains will sing before you.",
+  "verse": "Isaiah 55:12"
+ },
+ {
+  "message": "Arise, shine, for your light has come, and My glory has risen upon you.",
+  "verse": "Isaiah 60:1"
+ },
+ {
+  "message": "Forget the former things — behold, I am doing a new thing. It springs forth. Do you not perceive it?",
+  "verse": "Isaiah 43:18-19"
+ },
+ {
+  "message": "I will make a way in the wilderness and rivers in the desert — for you.",
+  "verse": "Isaiah 43:19"
+ },
+ {
+  "message": "The path of the righteous is like the morning sun, shining brighter till the full light of day. Keep walking.",
+  "verse": "Proverbs 4:18"
+ },
+ {
+  "message": "The glory of your latter house will be greater than the former. In this place I will give peace.",
+  "verse": "Haggai 2:9"
+ },
+ {
+  "message": "Your beginning was small, but your latter end shall greatly increase.",
+  "verse": "Job 8:7"
+ },
+ {
+  "message": "Eye for effort: whatever you do, work at it with all your heart, as working for Me — I will reward you.",
+  "verse": "Colossians 3:23-24"
+ },
+ {
+  "message": "Be faithful over little, and I will set you over much. Enter into My joy.",
+  "verse": "Matthew 25:21"
+ },
+ {
+  "message": "Run the race with endurance, fixing your eyes on Jesus, the author and finisher of your faith.",
+  "verse": "Hebrews 12:1-2"
+ },
+ {
+  "message": "I who watch over you will not slumber nor sleep.",
+  "verse": "Psalm 121:3-4"
+ },
+ {
+  "message": "I keep your going out and your coming in, from this time forth and forevermore.",
+  "verse": "Psalm 121:8"
+ },
+ {
+  "message": "Even the hairs of your head are all numbered. Do not fear — you are worth more than many sparrows.",
+  "verse": "Luke 12:7"
+ },
+ {
+  "message": "Peace, be still. The wind and the waves obey Me — and I am in your boat.",
+  "verse": "Mark 4:39"
+ },
+ {
+  "message": "Why are you cast down, O my soul? Hope in Me, for you shall yet praise Me.",
+  "verse": "Psalm 42:11"
+ },
+ {
+  "message": "Taste and see that I am good. Blessed are you when you take refuge in Me.",
+  "verse": "Psalm 34:8"
+ },
+ {
+  "message": "This is the day I have made. Rejoice and be glad in it.",
+  "verse": "Psalm 118:24"
+ },
+ {
+  "message": "In My presence is fullness of joy. At My right hand are pleasures forevermore.",
+  "verse": "Psalm 16:11"
+ },
+ {
+  "message": "I have plans to give you hope. Hold on — your expectation shall not be cut off.",
+  "verse": "Proverbs 23:18"
+ },
+ {
+  "message": "Hope in Me will never put you to shame, for My love has been poured into your heart.",
+  "verse": "Romans 5:5"
+ },
+ {
+  "message": "I am the God of hope. I will fill you with all joy and peace as you trust in Me, so that you overflow with hope.",
+  "verse": "Romans 15:13"
+ },
+ {
+  "message": "Behold, I am coming quickly, and My reward is with Me.",
+  "verse": "Revelation 22:12"
+ },
+ {
+  "message": "He who began the work is faithful to finish it. Your story is not over.",
+  "verse": "Philippians 1:6"
+ },
+ {
+  "message": "Stand firm. Let nothing move you. Your labour in the Lord is not in vain.",
+  "verse": "1 Corinthians 15:58"
+ },
+ {
+  "message": "I have redeemed you. I have swept away your offences like a cloud. Return to Me.",
+  "verse": "Isaiah 44:22"
+ },
+ {
+  "message": "You are complete in Christ, who is the head of all principality and power.",
+  "verse": "Colossians 2:10"
+ },
+ {
+  "message": "You are more than a conqueror through Him who loved you.",
+  "verse": "Romans 8:37"
+ },
+ {
+  "message": "Greater is He who is in you than he who is in the world.",
+  "verse": "1 John 4:4"
+ },
+ {
+  "message": "Whatever is born of God overcomes the world — and this is the victory: your faith.",
+  "verse": "1 John 5:4"
+ },
+ {
+  "message": "Resist the devil and he will flee from you.",
+  "verse": "James 4:7"
+ },
+ {
+  "message": "I always lead you in triumph in Christ.",
+  "verse": "2 Corinthians 2:14"
+ },
+ {
+  "message": "If I am for you, who can be against you?",
+  "verse": "Romans 8:31"
+ }
 ]

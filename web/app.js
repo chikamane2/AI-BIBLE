@@ -834,7 +834,7 @@ function doSpeak(data) {
   renderSpeakTab(data);
 }
 
-// ---------- Quiz (5 levels) ----------
+// ---------- Quiz (20 levels) ----------
 let quizState = null;
 
 const QUIZ_LEVELS = [
@@ -843,15 +843,55 @@ const QUIZ_LEVELS = [
   { n: 3, name: "Moderate" },
   { n: 4, name: "Hard" },
   { n: 5, name: "Expert" },
+  { n: 6, name: "Life of Jesus" },
+  { n: 7, name: "Early Church" },
+  { n: 8, name: "Patriarchs" },
+  { n: 9, name: "Exodus Road" },
+  { n: 10, name: "Judges & Ruth" },
+  { n: 11, name: "Kings & Prophets" },
+  { n: 12, name: "Wisdom Books" },
+  { n: 13, name: "Major Prophets" },
+  { n: 14, name: "Minor Prophets" },
+  { n: 15, name: "Paul's Letters" },
+  { n: 16, name: "Revelation Ready" },
+  { n: 17, name: "Numbers & Records" },
+  { n: 18, name: "Names & Places" },
+  { n: 19, name: "Who Said It?" },
+  { n: 20, name: "Teacher of Teachers" },
 ];
+const QUIZ_MAX_LEVEL = QUIZ_LEVELS.length;
 const QUIZ_ROUND_SIZE = 8;        // questions per round
 const QUIZ_PASS = 0.5;            // fraction correct needed to advance
 let quizSelectedLevel = 1;
 
+// Answer-streak hype: one milestone every 5 correct in a row, capped at 100.
+const QUIZ_HYPES = [
+  "Nice start! 🔥", "Good job! ✨", "Well done! 💪", "Impressive! 🌟", "Excellent! 🎯",
+  "Outstanding! 🏅", "Magnificent! 👑", "Brilliant! 💎", "Phenomenal! ⚡", "Unstoppable! 🚀",
+  "On fire! 🔥🔥", "Anointed! 🕊️", "Scripture Scholar! 📖", "Word Master! ⚔️", "Legendary! 🏆",
+  "Untouchable! 🛡️", "Prophet level! 🌩️", "Apostolic! ✝️", "Heavenly! ☁️", "PERFECT 100! 👑🔥🏆",
+];
+function answerStreak() {
+  try { return +localStorage.getItem("hope.answerStreak") || 0; } catch { return 0; }
+}
+function setAnswerStreak(n) {
+  try { localStorage.setItem("hope.answerStreak", String(n)); } catch { /* ignore */ }
+}
+function streakBarHtml() {
+  const st = answerStreak();
+  const next = Math.min(100, (Math.floor(st / 5) + 1) * 5);
+  const pct = st >= 100 ? 100 : ((st % 5) / 5) * 100;
+  return `
+    <div class="quiz-streak">
+      <div class="quiz-streak-row"><span>🔥 Streak: <b>${st}</b></span><span>${st >= 100 ? "MAX! 👑" : "next hype at " + next}</span></div>
+      <div class="quiz-streak-bar"><div style="width:${pct}%"></div></div>
+    </div>`;
+}
+
 function quizUnlocked() {
   try {
     const v = +localStorage.getItem("hope.quizUnlocked");
-    return Math.min(5, Math.max(1, v || 1));
+    return Math.min(QUIZ_MAX_LEVEL, Math.max(1, v || 1));
   } catch { return 1; }
 }
 function setQuizUnlocked(n) {
@@ -882,8 +922,11 @@ function renderQuizStart(data) {
   const cur = QUIZ_LEVELS[quizSelectedLevel - 1];
   const need = Math.ceil(QUIZ_ROUND_SIZE * QUIZ_PASS);
 
+  const allCleared = unlocked >= QUIZ_MAX_LEVEL;
   document.getElementById("quiz-body").innerHTML = `
-    <p class="muted center">Bible Quiz — five levels, Beginner to Expert. Answer at least half to unlock the next level. You can drop to an easier level any time.</p>
+    <p class="muted center">Bible Quiz — ${QUIZ_MAX_LEVEL} levels, Beginner to Teacher of Teachers. Answer at least half to unlock the next level. Replay any unlocked level any time.</p>
+    ${allCleared ? `<p class="center" style="color:var(--accent,#d4a017);font-weight:700">🏆 All ${QUIZ_MAX_LEVEL} levels unlocked — replay freely. More levels coming!</p>` : ""}
+    ${streakBarHtml()}
     <div class="quiz-level-row">${chips}</div>
     <div class="quiz-level-name">Level ${cur.n} · ${cur.name}</div>
     <p class="muted small center">${QUIZ_ROUND_SIZE} questions · pass ${need} to advance</p>
@@ -926,7 +969,10 @@ function renderQuizQuestion(data) {
   s.answered = false;
   const levelName = QUIZ_LEVELS[s.level - 1].name;
   document.getElementById("quiz-body").innerHTML = `
+    <button class="quiz-secondary" id="quiz-back-levels">← Back to levels</button>
     <div class="quiz-progress">Level ${s.level} · ${levelName} — Question ${s.idx + 1} of ${s.questions.length}<span>Score ${s.score}</span></div>
+    ${streakBarHtml()}
+    <div id="quiz-hype"></div>
     <div class="quiz-question">${escapeHtml(q.q)}</div>
     <div class="quiz-options">
       ${q.options.map((opt, i) => `<button class="quiz-option" data-i="${i}">${escapeHtml(opt)}</button>`).join("")}
@@ -936,6 +982,9 @@ function renderQuizQuestion(data) {
   document.querySelectorAll(".quiz-option").forEach((btn) => {
     btn.addEventListener("click", () => answerQuiz(+btn.dataset.i, data));
   });
+  document.getElementById("quiz-back-levels").addEventListener("click", () => {
+    if (confirm("Leave this round? Your progress in it will be lost.")) renderQuizStart(data);
+  });
 }
 
 function answerQuiz(picked, data) {
@@ -944,7 +993,22 @@ function answerQuiz(picked, data) {
   s.answered = true;
   const q = s.questions[s.idx];
   const right = picked === q.answer;
-  if (right) s.score++;
+  if (right) {
+    s.score++;
+    const st = answerStreak() + 1;
+    setAnswerStreak(st);
+    if (st % 5 === 0 && st <= 100) {
+      const hypeEl = document.getElementById("quiz-hype");
+      if (hypeEl) hypeEl.innerHTML =
+        `<div class="quiz-hype-banner">${QUIZ_HYPES[Math.min(st / 5, QUIZ_HYPES.length) - 1]} <span>${st} in a row!</span></div>`;
+    }
+  } else {
+    setAnswerStreak(0);
+    const hypeEl = document.getElementById("quiz-hype");
+    if (hypeEl) hypeEl.innerHTML = "";
+  }
+  const sb = document.querySelector(".quiz-streak");
+  if (sb) sb.outerHTML = streakBarHtml();
   document.querySelectorAll(".quiz-option").forEach((btn, i) => {
     btn.disabled = true;
     if (i === q.answer) btn.classList.add("correct");
@@ -978,13 +1042,11 @@ function renderQuizResult(data) {
   const playedLevel = s.level; // remember which level was just played
   let headline, msg, buttonsHtml;
 
-  if (passed && s.level >= 5) {
-    // Completed the final level — reset the whole journey
-    setQuizUnlocked(1);
-    quizSelectedLevel = 1;
-    headline = "All 5 levels complete!";
-    msg = "You have journeyed from Beginner to Expert in the Word. The quiz now resets — begin again, and see how much deeper it has gone in.";
-    buttonsHtml = `<button class="speak-trigger" id="quiz-restart">Start again</button>`;
+  if (passed && s.level >= QUIZ_MAX_LEVEL) {
+    // Completed the final level — do NOT reset; free play until more levels ship
+    headline = `All ${QUIZ_MAX_LEVEL} levels complete! 🏆`;
+    msg = "You have journeyed from Beginner to Teacher of Teachers. Every level stays open — replay any of them while new levels are being prepared.";
+    buttonsHtml = `<button class="speak-trigger" id="quiz-restart">Choose a level</button>`;
   } else if (passed) {
     const newUnlocked = Math.max(quizUnlocked(), s.level + 1);
     setQuizUnlocked(newUnlocked);
@@ -1006,10 +1068,13 @@ function renderQuizResult(data) {
       <div class="quiz-result-headline">${escapeHtml(headline)}</div>
       <div class="quiz-result-msg">${escapeHtml(msg)}</div>
       ${buttonsHtml}
+      <button class="quiz-secondary" id="quiz-levels">← All levels</button>
     </div>
   `;
   const restart = document.getElementById("quiz-restart");
   if (restart) restart.addEventListener("click", () => renderQuizStart(data));
+  const levelsBtn = document.getElementById("quiz-levels");
+  if (levelsBtn) levelsBtn.addEventListener("click", () => renderQuizStart(data));
   const retry = document.getElementById("quiz-retry");
   if (retry) retry.addEventListener("click", () => {
     quizSelectedLevel = playedLevel;
@@ -1134,6 +1199,11 @@ function renderMeHub(data) {
     <div class="me-theme">
       <span>Reading voice</span>
       <select id="voice-select"></select>
+    </div>
+    <div class="me-theme">
+      <span>Have an idea?</span>
+      <a class="quiz-secondary" style="text-decoration:none;display:inline-block"
+         href="mailto:reyotechnology@gmail.com?subject=Hope%20App%20Suggestion">💡 Send a suggestion</a>
     </div>
   `;
   document.querySelectorAll(".me-card").forEach((b) => {
@@ -1338,6 +1408,21 @@ async function boot() {
   initVoices();
   show("daily");
   loadExtraTranslations(data); // WEB + ASV stream in without blocking startup
+
+  // Hardware/browser back: first press returns to the Daily tab; a second
+  // press on Daily asks before letting the app close.
+  try { window.history.pushState({ hopeGuard: true }, ""); } catch { /* ignore */ }
+  window.addEventListener("popstate", () => {
+    const onDaily = document.getElementById("daily")?.classList.contains("active");
+    if (!onDaily) {
+      show("daily");
+      try { window.history.pushState({ hopeGuard: true }, ""); } catch { /* ignore */ }
+    } else if (confirm("Close the app?")) {
+      window.history.go(-2); // unwind past the sentinel → exits when history empties
+    } else {
+      try { window.history.pushState({ hopeGuard: true }, ""); } catch { /* ignore */ }
+    }
+  });
 
   // Re-render date-sensitive sections when the user returns to the app
   // (e.g. opened yesterday, reopened today — daily verse and streak should refresh).

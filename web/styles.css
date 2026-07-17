@@ -1138,3 +1138,48 @@ form button[type="submit"]:hover { background: #e0b96a; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+/* ---- Quiz answer-streak bar + hype banner ---- */
+.quiz-streak {
+  margin: 10px 0;
+  padding: 8px 12px;
+  border: 1px solid var(--border, #333);
+  border-radius: 10px;
+  background: var(--card, rgba(255,255,255,0.03));
+}
+.quiz-streak-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted, #999);
+}
+.quiz-streak-row b { color: var(--accent, #d4a017); }
+.quiz-streak-bar {
+  margin-top: 6px;
+  height: 6px;
+  border-radius: 99px;
+  background: rgba(128,128,128,0.2);
+  overflow: hidden;
+}
+.quiz-streak-bar div {
+  height: 100%;
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--accent, #d4a017), #c0392b);
+  transition: width 0.3s ease;
+}
+.quiz-hype-banner {
+  margin: 10px 0;
+  padding: 10px 14px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--accent, #d4a017);
+  border: 1px solid var(--accent, #d4a017);
+  border-radius: 10px;
+  background: rgba(212,160,23,0.12);
+  animation: hype-pulse 1s ease-in-out infinite alternate;
+}
+.quiz-hype-banner span { font-size: 12px; font-weight: 500; color: var(--muted, #999); }
+@keyframes hype-pulse { from { transform: scale(1); } to { transform: scale(1.03); } }
